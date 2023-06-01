@@ -1,8 +1,8 @@
 .section-1{
-     background-color: #f4e5da;
+     background-color: #f6ece5;
 }
 .org-color{
-     color: rgb(255, 72, 0);;
+     color: rgb(255, 84, 22);
 }
 .ling-height{
      line-height: 1px;
@@ -10,3 +10,21 @@
 .name{
      font-size: 366%;
 }
+.button1 {
+     background-color: rgb(255, 72, 0);
+     border: none;
+     color: white;
+     padding: 12px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 50px;
+   }
+   .button1:hover{
+     background-color: #f4e5da;
+     color: rgb(255, 72, 0);
+     border: 2px solid rgb(255, 72, 0);
+   }

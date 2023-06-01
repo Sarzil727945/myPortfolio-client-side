@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import { TypeAnimation } from 'react-type-animation';
+import { BsArrowDownCircleFill } from 'react-icons/bs';
 
 const Home = () => {
 
@@ -15,7 +16,7 @@ const Home = () => {
 
                                    <h4 className=' Text-color fw-bold py-2'>
                                         <span>
-                                             <span>I'm A</span>{' '} 
+                                             <span>I'm A</span>{' '}
                                              <TypeAnimation
                                                   sequence={[
                                                        'MERN Stack Web Developer',
@@ -31,6 +32,12 @@ const Home = () => {
                                         Green University Of Bangladesh. I was a batch seven MERN stack web developer student of Programming
                                         Hero. Well-versed HTML5, CSS3, Bootstrap, Tailwind, JavaScript, React, Express.JS, MongoDB.
                                    </p>
+                                   <div className='mt-5'>
+                                        <button className='button1'>
+                                             Download CV
+                                        </button>
+                                        <button className='button1 ms-2'>Contact</button>
+                                   </div>
                               </div>
                               <div className=' col-lg-6 '>
                                    <img className='img-fluid' src="https://wp.shsarker.xyz/dora/wp-content/uploads/2023/04/hero-person-img.png" alt="" />
