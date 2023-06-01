@@ -15,16 +15,16 @@ const Home = () => {
 
                                    <h4 className=' Text-color fw-bold py-2'>
                                         <span>
-                                             {/* <span>I'm A</span>{' '} 
+                                             <span>I'm A</span>{' '} 
                                              <TypeAnimation
                                                   sequence={[
                                                        'MERN Stack Web Developer',
                                                        1000,
-                                                       'Student of CSE',
+                                                       'Student of CSE Department',
                                                        1000,
                                                   ]}
                                                   repeat={Infinity}
-                                             /> */}
+                                             />
                                         </span></h4>
                                    <p className=' text-muted fw-semibold'>
                                         I am a MERN stack web developer. And I am a student of Computer Science an Engineer (CSE) department of
