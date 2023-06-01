@@ -9,7 +9,7 @@ import ActiveLink from '../../ActiveLink/ActiveLink';
 const Header = () => {
 
      return (
-          <div className='fixed-top'>
+          <div className=' fixed-top'>
                <Navbar bg="light" expand="lg" className=' mb-2'>
                     <Container fluid className='container'>
                          <Navbar.Brand href="#" className='fs-4 d-flex align-items-center'>
