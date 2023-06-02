@@ -4,6 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { BsArrowDownCircleFill } from 'react-icons/bs';
 import useTitle from '../../hooks/useTitle';
 import Support from './Support/Support';
+import img from '../../../public/sm.png'
 
 const Home = () => {
      useTitle('Home')
@@ -41,8 +42,8 @@ const Home = () => {
                                         <button className='button1 ms-2'>Contact</button>
                                    </div>
                               </div>
-                              <div className=' col-lg-6'>
-                                   <img className='img-fluid' src="https://wp.shsarker.xyz/dora/wp-content/uploads/2023/04/hero-person-img.png" alt="" />
+                              <div className=' col-lg-6 text-center '>
+                                   <img className='img-fluid myPic' src={img} alt="" />
                               </div>
                          </div>
                     </div>

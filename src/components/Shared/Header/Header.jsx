@@ -13,7 +13,7 @@ const Header = () => {
                <Navbar bg="light" expand="lg" className=' mb-2'>
                     <Container fluid className='container'>
                          <Navbar.Brand href="#" className='fs-4 d-flex align-items-center'>
-                              <h1 className='ms-3 Text-color fw-bold'>WEB</h1>
+                              <h1 className='ms-3 Text-color fw-bold web-size'>WEB</h1>
                          </Navbar.Brand>
                          <Navbar.Toggle aria-controls="navbarScroll" />
                          <Navbar.Collapse id="navbarScroll">
