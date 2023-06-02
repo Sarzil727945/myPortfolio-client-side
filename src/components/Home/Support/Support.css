@@ -1,15 +1,13 @@
 .style {
-     .div-style {
-          background-color: rgb(255, 84, 22);
-          color: aliceblue;
-          width: 100px;
-          height: 100px;
+     .img-sizes {
+          width: 80px;
+          height: 80px;
           border-radius: 50%;
      }
      .shadow-style{
           position: absolute;
           border-radius: 85px;
-          margin-top: -60px;
+          margin-top: -80px;
           
      }
 
