@@ -58,13 +58,10 @@ const Contact = () => {
           const email = form.email.value;
           const subject = form.subject.value;
           const message = form.message.value;
-          setInput1Value('');
-          setInput2Value('');
-          setInput3Value('');
 
           // user information post data page start 
           const saveUser = { name, email, subject, message }
-          fetch('http://localhost:5000/user', {
+          fetch('https://portfolio-server-side-rho.vercel.app/user', {
                method: 'POST',
                headers: {
                     'content-type': 'application/json'
@@ -83,6 +80,9 @@ const Contact = () => {
 
                          form.reset();
                          setEmail('')
+                         setInput1Value('');
+                         setInput2Value('');
+                         setInput3Value('');
                     }
                })
           // user information post data page end
