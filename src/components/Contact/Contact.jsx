@@ -4,6 +4,7 @@ import { BsFacebook, BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
      const [input1Value, setInput1Value] = useState('');
@@ -60,8 +61,31 @@ const Contact = () => {
           setInput1Value('');
           setInput2Value('');
           setInput3Value('');
-          form.reset();
-          console.log(name, email, subject, message);
+
+          // user information post data page start 
+          const saveUser = { name, email, subject, message }
+          fetch('http://localhost:5000/user', {
+               method: 'POST',
+               headers: {
+                    'content-type': 'application/json'
+               },
+               body: JSON.stringify(saveUser)
+          })
+               .then(res => res.json())
+               .then(data => {
+                    if (data.insertedId) {
+                         Swal.fire({
+                              title: 'Success!',
+                              text: 'Send your message Success !!',
+                              icon: 'success',
+                              confirmButtonText: 'Ok'
+                         })
+
+                         form.reset();
+                         setEmail('')
+                    }
+               })
+          // user information post data page end
      };
 
      return (
