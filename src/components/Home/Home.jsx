@@ -1,10 +1,12 @@
 import React from 'react';
 import './Home.css';
 import { TypeAnimation } from 'react-type-animation';
-import { BsArrowDownCircleFill } from 'react-icons/bs';
 import useTitle from '../../hooks/useTitle';
 import Support from './Support/Support';
 import img from '../../../public/sm.png'
+import Contact from '../Contact/Contact';
+import { Link } from 'react-router-dom';
+import Footer from '../Shared/Footer/Footer';
 
 const Home = () => {
      useTitle('Home')
@@ -39,7 +41,9 @@ const Home = () => {
                                         <button className='button1'>
                                              Download CV
                                         </button>
+                                        <Link to='/contact'>
                                         <button className='button1 ms-2'>Contact</button>
+                                        </Link>
                                    </div>
                               </div>
                               <div className=' col-lg-6 text-center '>
@@ -50,6 +54,12 @@ const Home = () => {
                </div>
                <div>
                     <Support></Support>
+               </div>
+               <div>
+                    <Contact></Contact>
+               </div>
+               <div>
+                    <Footer></Footer>
                </div>
           </div>
      );

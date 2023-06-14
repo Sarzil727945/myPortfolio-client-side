@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import './Header.css';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import { Navbar } from 'react-bootstrap';
 import ActiveLink from '../../ActiveLink/ActiveLink';
