@@ -37,7 +37,6 @@ const Header = () => {
                                    <span >
                                         <ActiveLink to="/contact">Contact</ActiveLink>
                                    </span>
-
                               </Nav>
                          </Navbar.Collapse>
                     </Container>
