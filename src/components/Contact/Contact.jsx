@@ -5,8 +5,10 @@ import { AiFillInstagram } from 'react-icons/ai';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Swal from 'sweetalert2';
+import useTitle from '../../hooks/useTitle';
 
 const Contact = () => {
+     useTitle('Contact');
      const [input1Value, setInput1Value] = useState('');
      const [input2Value, setInput2Value] = useState('');
      const [input3Value, setInput3Value] = useState('');
@@ -61,7 +63,7 @@ const Contact = () => {
 
           // user information post data page start 
           const saveUser = { name, email, subject, message }
-          fetch('https://portfolio-server-side-rho.vercel.app/user', {
+          fetch('http://localhost:5000/user', {
                method: 'POST',
                headers: {
                     'content-type': 'application/json'
