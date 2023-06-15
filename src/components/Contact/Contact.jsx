@@ -6,9 +6,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Swal from 'sweetalert2';
 import useTitle from '../../hooks/useTitle';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
      useTitle('Contact');
+     const form = useRef();
      const [input1Value, setInput1Value] = useState('');
      const [input2Value, setInput2Value] = useState('');
      const [input3Value, setInput3Value] = useState('');
@@ -55,15 +57,23 @@ const Contact = () => {
 
      const handleSubmit = (event) => {
           event.preventDefault();
-          const form = event.target;
-          const name = form.name.value;
-          const email = form.email.value;
-          const subject = form.subject.value;
-          const message = form.message.value;
+          const formOf = event.target;
+          const name = formOf.name.value;
+          const email = formOf.email.value;
+          const subject = formOf.subject.value;
+          const message = formOf.message.value;
+
+          emailjs.sendForm('service_j7m7s0j', 'template_msbrd06', form.current, '4pgoNqPSJizpL-x1l')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+         
 
           // user information post data page start 
           const saveUser = { name, email, subject, message }
-          fetch('http://localhost:5000/user', {
+          fetch('https://portfolio-server-side-rho.vercel.app/user', {
                method: 'POST',
                headers: {
                     'content-type': 'application/json'
@@ -80,7 +90,7 @@ const Contact = () => {
                               confirmButtonText: 'Ok'
                          })
 
-                         form.reset();
+                         formOf.reset();
                          setEmail('')
                          setInput1Value('');
                          setInput2Value('');
@@ -117,7 +127,7 @@ const Contact = () => {
                          </div>
                     </div>
                     <div className=' col-lg-7'>
-                         <form className='p-lg-5 mx-lg-5' onSubmit={handleSubmit}>
+                         <form className='p-lg-5 mx-lg-5' onSubmit={handleSubmit} ref={form}>
                               <div className="row px-4 pt-4">
                                    <div className="col-lg mb-2">
                                         <input value={input1Value}
