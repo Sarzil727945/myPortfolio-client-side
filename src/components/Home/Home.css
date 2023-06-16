@@ -23,6 +23,13 @@
      cursor: pointer;
      border-radius: 50px;
    }
+   .aBtn{
+     color: white;
+     text-decoration: none;
+   }
+   .aBtn:hover{
+     color: rgb(254, 83, 15);
+   }
    .button1:hover{
      background-color: #f4e5da;
      color: rgb(254, 83, 15);

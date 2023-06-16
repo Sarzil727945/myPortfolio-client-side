@@ -39,10 +39,12 @@ const Home = () => {
                                    </p>
                                    <div className='mt-5'>
                                         <button className='button1'>
-                                             Download CV
+                                             <a className='aBtn' href="https://drive.google.com/file/d/1Q9sz0uzkLK6M4xOn2zZEkQntoR-tj5RG/view?usp=sharing" target='_blank'>
+                                                  <span>Download CV</span>
+                                             </a>
                                         </button>
                                         <Link to='/contact'>
-                                        <button className='button1 ms-2'>Contact</button>
+                                             <button className='button1 ms-2'>Contact</button>
                                         </Link>
                                    </div>
                               </div>
