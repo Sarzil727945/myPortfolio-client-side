@@ -63,7 +63,7 @@ const Contact = () => {
           const subject = formOf.subject.value;
           const message = formOf.message.value;
 
-          emailjs.sendForm('service_j7m7s0j', 'template_msbrd06', form.current, '4pgoNqPSJizpL-x1l')
+          emailjs.sendForm('service_ynwypci', 'template_92ge94i', form.current, '4pgoNqPSJizpL-x1l')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
