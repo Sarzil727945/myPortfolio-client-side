@@ -152,11 +152,11 @@ const Contact = () => {
                                              onChange={handleInput3Change} type="text" name='subject' className="form-control py-2" placeholder="Your subject" aria-label="false" required />
                                    </div>
                               </div>
-                              <div className="mb-3 px-4 pb-3">
+                              <div className="px-4 pb-3">
                                    <textarea name='message' className="form-control py-2" id="validationTextarea"
                                         aria-invalid="false" placeholder="Your message" rows="5"></textarea>
                               </div>
-                              <div className='px-4'>
+                              <div className='px-4 my-2'>
                                    <div>
                                         <button type="submit" className="sendButton" onClick={() => notify()}>
 

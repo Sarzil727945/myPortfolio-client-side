@@ -60,9 +60,6 @@ const Home = () => {
                <div>
                     <Contact></Contact>
                </div>
-               <div>
-                    <Footer></Footer>
-               </div>
           </div>
      );
 };
