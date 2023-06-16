@@ -1,15 +1,19 @@
-.section-1{
+.section-1 {
      background-color: #f5f2f0;
 }
-.org-color{
+
+.org-color {
      color: rgb(254, 95, 37);
 }
-.ling-height{
+
+.ling-height {
      line-height: 1px;
 }
-.name{
+
+.name {
      font-size: 366%;
 }
+
 .button1 {
      background-color: rgb(251, 81, 14);
      border: none;
@@ -22,25 +26,30 @@
      margin: 4px 2px;
      cursor: pointer;
      border-radius: 50px;
-   }
-   .aBtn{
+}
+
+.aBtn {
      color: white;
      text-decoration: none;
-   }
-   .aBtn:hover{
+}
+
+.aBtn:hover {
      color: rgb(254, 83, 15);
-   }
-   .button1:hover{
+}
+
+.button1:hover {
      background-color: #f4e5da;
      color: rgb(254, 83, 15);
      border: 2px solid rgb(253, 78, 9);
-   }
-   .myPic{
+}
+
+.myPic {
      width: 100%;
      height: 555px;
-     @media only screen and (max-width: 600px) {
-          .myPic{
-               height: 0px;
-          }
+}
+
+@media only screen and (max-width: 600px) {
+     .textSmCenter {
+          text-align: center !important;
      }
-   }
+}

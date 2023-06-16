@@ -16,9 +16,10 @@ const Home = () => {
                     <div className='container'>
                          <div className='row d-flex align-items-center mt-lg-5 pt-2'>
                               <div className='py-5 col-lg-6 px-3'>
-                                   <h3 className=' org-color fw-bold ling-height'>Hi, I'm </h3>
-                                   <h1 className='fw-bold Text-color name'>Sarzil Muntaha</h1>
-
+                                   <div className='textSmCenter'>
+                                        <h3 className=' org-color fw-bold ling-height'>Hi, I'm </h3>
+                                        <h1 className='fw-bold Text-color name'>Sarzil Muntaha</h1>
+                                   </div>
                                    <h4 className=' Text-color fw-bold py-2'>
                                         <span>
                                              <span>I'm A</span>{' '}
