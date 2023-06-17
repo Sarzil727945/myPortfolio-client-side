@@ -25,3 +25,8 @@
     cursor: pointer;
     border-radius: 50px;
   }
+  @media only screen and (max-width: 600px) {
+    .justifySmCenter {
+        justify-content: center !important;
+    }
+}

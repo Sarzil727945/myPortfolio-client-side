@@ -101,13 +101,13 @@ const Contact = () => {
      };
 
      return (
-          <div className=' mt-lg-5 pt-lg-5 container'>
+          <div className=' mt-5 pt-5 container'>
                <div className=' row d-flex align-items-center'>
                     <div className=' col-lg-5 mb-3'>
-                         <h2 className=' fw-bold Text-color'>Let's Connect</h2>
+                         <h2 className=' fw-bold Text-color pt-2'>Let's Connect</h2>
                          <p className=' py-2 fs-5 text-muted'>Please fill out the form on this section to contact with me. Or call between 8:00 a.m. and 10:00 p.m.</p>
                          <div>
-                              <div className=" d-flex">
+                              <div className=" d-flex justifySmCenter">
                                    <div className="icon">
                                         <a href="https://www.facebook.com/smsarzil.muntaha" target='_blank'>
                                              <span><BsFacebook /></span>

@@ -39,8 +39,8 @@ const Home = () => {
                                         Hero. Well-versed HTML5, CSS3, Bootstrap, Tailwind, JavaScript, React, Express.JS, MongoDB.
                                    </p>
                                    <div className='mt-5'>
-                                        <button className='button1'>
-                                             <a className='aBtn' href="https://drive.google.com/file/d/1Q9sz0uzkLK6M4xOn2zZEkQntoR-tj5RG/view?usp=sharing" target='_blank'>
+                                        <button className='borderNone'>
+                                             <a className='aBtn button1' href="https://drive.google.com/file/d/1Q9sz0uzkLK6M4xOn2zZEkQntoR-tj5RG/view?usp=sharing" target='_blank'>
                                                   <span>Download CV</span>
                                              </a>
                                         </button>
