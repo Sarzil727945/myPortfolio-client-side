@@ -1,0 +1,11 @@
+.cardW{
+     width: 366px;
+}
+.buttonB{
+     border-bottom: 3px solid slategray;
+}
+.imgW{
+     width: 88px;
+     height: 88px;
+     border-radius: 50%;
+}

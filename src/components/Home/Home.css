@@ -48,11 +48,14 @@
 
 .myPic {
      width: 100%;
-     height: 555px;
+     height: 655px;
 }
 
 @media only screen and (max-width: 600px) {
      .textSmCenter {
           text-align: center !important;
+     }
+     .myPic{
+          height: 444px;
      }
 }

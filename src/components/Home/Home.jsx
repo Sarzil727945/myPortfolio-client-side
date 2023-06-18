@@ -7,6 +7,7 @@ import img from '../../../public/sm.png'
 import Contact from '../Contact/Contact';
 import { Link } from 'react-router-dom';
 import Footer from '../Shared/Footer/Footer';
+import Services from '../Services/Services';
 
 const Home = () => {
      useTitle('Home')
@@ -33,7 +34,7 @@ const Home = () => {
                                                   repeat={Infinity}
                                              />
                                         </span></h4>
-                                   <p className=' text-muted fw-semibold'>
+                                   <p className=' text-muted fw-semibold pe-lg-5'>
                                         I am a MERN stack web developer. And I am a student of Computer Science an Engineer (CSE) department of
                                         Green University Of Bangladesh. I was a batch seven MERN stack web developer student of Programming
                                         Hero. Well-versed HTML5, CSS3, Bootstrap, Tailwind, JavaScript, React, Express.JS, MongoDB.
@@ -57,6 +58,9 @@ const Home = () => {
                </div>
                <div>
                     <Support></Support>
+               </div>
+               <div className=' mt-5 pt-3'>
+                    <Services></Services>
                </div>
                <div>
                     <Contact></Contact>

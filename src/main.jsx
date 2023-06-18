@@ -10,6 +10,7 @@ import Main from './components/Main/Main.jsx';
 import Home from './components/Home/Home.jsx';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 import Contact from './components/Contact/Contact.jsx';
+import Services from './components/Services/Services';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path:'contact',
         element: <Contact></Contact>
+      },
+      {
+        path:'services',
+        element: <Services></Services>
       },
     ]
   },
