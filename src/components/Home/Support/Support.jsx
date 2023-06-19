@@ -5,9 +5,9 @@ import { GrProjects } from 'react-icons/gr';
 const Support = () => {
      return (
           <div className=' style'>
-               <div className=' container mb-5'>
+               <div className=' container mb-lg-5'>
                     <div className='items mt-3 d-flex justify-content-center'>
-                         <div className='row shadow-lg py-3 px-4 mb-5 bg-body shadow-style'>
+                         <div className='row shadow-lg py-3 px-4 bg-body shadow-style'>
                               <div className='col-lg-4'>
                                    <div className='d-flex align-items-center py-3 px-lg-4 border-style1'>
                                         <div className=' p-1'>

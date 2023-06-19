@@ -3,6 +3,7 @@ import './Services.css';
 import Marquee from "react-fast-marquee";
 import { Link } from 'react-router-dom';
 import useTitle from '../../hooks/useTitle';
+import SubServices from './SubServices/SubServices';
 
 const Services = () => {
      useTitle('Services')
@@ -33,8 +34,10 @@ const Services = () => {
 
                          }
                     </div>
-
                </Marquee >
+               <div>
+                    <SubServices></SubServices>
+               </div>
           </div >
      );
 };

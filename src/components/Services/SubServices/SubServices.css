@@ -1,0 +1,26 @@
+.areaBgColor{
+ background-color: rgb(254, 83, 15);
+}
+.areaWHtmlCss{
+ width: 95%;
+}
+.areaWBT{
+ width: 92%;
+}
+.areaWJS{
+ width: 85%;
+}
+.areaWReactFM{
+ width: 90%;
+}
+.areaWNode{
+ width: 80%;
+}
+.areaWExpress{
+ width: 85%;
+}
+@media only screen and (max-width: 600px) {
+     .mtop{
+          margin-top: 50px;
+     }
+}

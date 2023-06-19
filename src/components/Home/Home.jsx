@@ -59,7 +59,7 @@ const Home = () => {
                <div>
                     <Support></Support>
                </div>
-               <div className=' mt-5 pt-3'>
+               <div className=' mt-lg-5 pt-lg-3'>
                     <Services></Services>
                </div>
                <div>

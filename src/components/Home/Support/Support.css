@@ -15,8 +15,8 @@
           .shadow-style{
                position: relative;
                border-radius: 0px;
-               margin-top: 0px;
-               box-shadow: 0 0rem 0rem rgba($black, .0) !important;
+               margin-top: 20px;
+               box-shadow: 0 0rem 0rem rgba(black, .0) !important;
           }
      }
 }
