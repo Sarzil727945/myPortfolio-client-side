@@ -1,5 +1,17 @@
+@keyframes fillAnimation {
+     0% {
+       transform: translateX(100%);
+       background-color: transparent;
+     }
+     100% {
+       transform: translateX(0);
+       background-color: rgb(254, 83, 15);
+     }
+   }
 .areaBgColor{
- background-color: rgb(254, 83, 15);
+ background-color: transparent;
+ animation: fillAnimation 3s linear forwards;
+
 }
 .areaWHtmlCss{
  width: 95%;
