@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './Contact.css'
+import { FaGithub } from 'react-icons/fa';
 import { BsFacebook, BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
 import { ToastContainer, toast } from 'react-toastify';
@@ -109,17 +110,22 @@ const Contact = () => {
                          <div>
                               <div className=" d-flex justifySmCenter">
                                    <div className="icon">
-                                        <a href="https://www.facebook.com/smsarzil.muntaha" target='_blank'>
+                                        <a title='Facebook' href="https://www.facebook.com/smsarzil.muntaha" target='_blank'>
                                              <span><BsFacebook /></span>
                                         </a>
                                    </div>
                                    <div className="icon">
-                                        <a href="https://www.linkedin.com/in/sarzil-muntaha-678b11263/" target='_blank'>
+                                        <a title='Linkedin' href="https://www.linkedin.com/in/sarzil-muntaha-678b11263/" target='_blank'>
                                              <BsLinkedin />
                                         </a>
                                    </div>
                                    <div className="icon">
-                                        <a href="https://www.instagram.com/sarzilmuntaha" target='_blank'>
+                                        <a title='GitHub' href="https://github.com/Sarzil727945" target='_blank'>
+                                             <span><FaGithub /></span>
+                                        </a>
+                                   </div>
+                                   <div className="icon">
+                                        <a title='Instagram' href="https://www.instagram.com/sarzilmuntaha" target='_blank'>
                                              <AiFillInstagram />
                                         </a>
                                    </div>

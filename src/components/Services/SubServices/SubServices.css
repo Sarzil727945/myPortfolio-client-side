@@ -1,35 +1,22 @@
-@keyframes fillAnimation {
-     0% {
-       transform: translateX(100%);
-       background-color: transparent;
-     }
-     100% {
-       transform: translateX(0);
-       background-color: rgb(254, 83, 15);
-     }
-   }
-.areaBgColor{
- background-color: transparent;
- animation: fillAnimation 3s linear forwards;
+.progress-bar {
+  background-color: lightgray;
+  overflow: hidden;
+}
 
+.progress-line {
+  width: 0;
+  height: 100%;
+  background-color: rgb(254, 83, 15);
+  animation: progress-animation 4s linear forwards;
 }
-.areaWHtmlCss{
- width: 95%;
-}
-.areaWBT{
- width: 92%;
-}
-.areaWJS{
- width: 85%;
-}
-.areaWReactFM{
- width: 90%;
-}
-.areaWNode{
- width: 80%;
-}
-.areaWExpress{
- width: 85%;
+
+@keyframes progress-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 600px) {
      .mtop{
