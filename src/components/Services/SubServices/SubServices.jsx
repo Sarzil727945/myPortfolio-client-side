@@ -16,7 +16,7 @@ const SubServices = () => {
                                    <p className=' fw-bold'>95%</p>
                               </div>
                               <div className="progress">
-                                   <div className="areaBgColor areaWHtmlCss progress-line" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                   <div className="areaBgColor areaWHtmlCss progress-line-1" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                          </div>
                          <div className=' col-lg-6 px-5 mtop'>
@@ -25,7 +25,7 @@ const SubServices = () => {
                                    <p className=' fw-bold'>92%</p>
                               </div>
                               <div className="progress">
-                                   <div className="areaBgColor areaWBT progress-line" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                   <div className="areaBgColor areaWBT progress-line-2" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                          </div>
                     </div>
@@ -36,7 +36,7 @@ const SubServices = () => {
                                    <p className=' fw-bold'>85%</p>
                               </div>
                               <div className="progress">
-                                   <div className="progress-line areaBgColor areaWJS" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                   <div className="progress-line-36 areaBgColor areaWJS" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                          </div>
                          <div className=' col-lg-6 px-5 mtop'>
@@ -65,7 +65,7 @@ const SubServices = () => {
                                    <p className=' fw-bold'>85%</p>
                               </div>
                               <div className="progress">
-                                   <div className="progress-line areaBgColor areaWExpress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                   <div className="progress-line-36 areaBgColor areaWExpress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                               </div>
                          </div>
                     </div>

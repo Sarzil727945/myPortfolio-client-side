@@ -3,21 +3,55 @@
   overflow: hidden;
 }
 
-.progress-line {
+.progress-line-1,
+.progress-line-2,
+.progress-line-36 {
   width: 0;
   height: 100%;
   background-color: rgb(254, 83, 15);
   animation: progress-animation 4s linear forwards;
 }
 
-@keyframes progress-animation {
+.progress-line-1 {
+  width: 0;
+  animation-name: progress-animation-1;
+}
+
+.progress-line-2 {
+  width: 0;
+  animation-name: progress-animation-2;
+}
+.progress-line-36 {
+  width: 0;
+  animation-name: progress-animation-36;
+}
+
+@keyframes progress-animation-1 {
   0% {
     width: 0;
   }
   100% {
-    width: 90%;
+    width: 95%;
   }
 }
+
+@keyframes progress-animation-2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 92%;
+  }
+}
+@keyframes progress-animation-36 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
      .mtop{
           margin-top: 50px;
