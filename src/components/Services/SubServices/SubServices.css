@@ -5,7 +5,9 @@
 
 .progress-line-1,
 .progress-line-2,
-.progress-line-36 {
+.progress-line-5,
+.progress-line-36,
+.progress-line-478 {
   width: 0;
   height: 100%;
   background-color: rgb(254, 83, 15);
@@ -21,9 +23,17 @@
   width: 0;
   animation-name: progress-animation-2;
 }
+.progress-line-5 {
+  width: 0;
+  animation-name: progress-animation-5;
+}
 .progress-line-36 {
   width: 0;
   animation-name: progress-animation-36;
+}
+.progress-line-478 {
+  width: 0;
+  animation-name: progress-animation-478;
 }
 
 @keyframes progress-animation-1 {
@@ -43,12 +53,30 @@
     width: 92%;
   }
 }
+@keyframes progress-animation-5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
 @keyframes progress-animation-36 {
   0% {
     width: 0;
   }
   100% {
     width: 85%;
+  }
+}
+
+@keyframes progress-animation-478 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
   }
 }
 
