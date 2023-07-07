@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Swal from 'sweetalert2';
 import useTitle from '../../hooks/useTitle';
 import emailjs from '@emailjs/browser';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
      useTitle('Contact');
@@ -65,12 +66,12 @@ const Contact = () => {
           const message = formOf.message.value;
 
           emailjs.sendForm('service_ynwypci', 'template_92ge94i', form.current, '4pgoNqPSJizpL-x1l')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-         
+               .then((result) => {
+                    console.log(result.text);
+               }, (error) => {
+                    console.log(error.text);
+               });
+
 
           // user information post data page start 
           const saveUser = { name, email, subject, message }
@@ -103,36 +104,38 @@ const Contact = () => {
 
      return (
           <div className=' mt-5 pt-5 container'>
-               <div className=' row d-flex align-items-center'>
-                    <div className=' col-lg-5 mb-3'>
-                         <h2 className=' fw-bold Text-color pt-2'>Let's Connect</h2>
-                         <p className=' py-2 fs-5 text-muted'>Please fill out the form on this section to contact with me. Or call between 8:00 a.m. and 10:00 p.m.</p>
-                         <div>
-                              <div className=" d-flex justifySmCenter">
-                                   <div className="icon">
-                                        <a title='Facebook' href="https://www.facebook.com/smsarzil.muntaha" target='_blank'>
-                                             <span><BsFacebook /></span>
-                                        </a>
-                                   </div>
-                                   <div className="icon">
-                                        <a title='Linkedin' href="https://www.linkedin.com/in/sarzil-muntaha-678b11263/" target='_blank'>
-                                             <BsLinkedin />
-                                        </a>
-                                   </div>
-                                   <div className="icon">
-                                        <a title='GitHub' href="https://github.com/Sarzil727945" target='_blank'>
-                                             <span><FaGithub /></span>
-                                        </a>
-                                   </div>
-                                   <div className="icon">
-                                        <a title='Instagram' href="https://www.instagram.com/sarzilmuntaha" target='_blank'>
-                                             <AiFillInstagram />
-                                        </a>
+               <div className=' row d-flex align-items-center' >
+                    <div className=' col-lg-5 mb-3 aos-init aos-animate' data-aos="fade-right"  data-aos-offset="500" data-aos-easing="ease-in-sine">
+                              <h2 className=' fw-bold Text-color pt-2'>Let's Connect</h2>
+                              <p className=' py-2 fs-5 text-muted'>Please fill out the form on this section to contact with me. Or call between 8:00 a.m. and 10:00 p.m.</p>
+                              
+                              <div>
+                                   <div className=" d-flex justifySmCenter">
+                                        <div className="icon">
+                                             <a title='Facebook' href="https://www.facebook.com/smsarzil.muntaha" target='_blank'>
+                                                  <span><BsFacebook /></span>
+                                             </a>
+                                        </div>
+                                        <div className="icon">
+                                             <a title='Linkedin' href="https://www.linkedin.com/in/sarzil-muntaha-678b11263/" target='_blank'>
+                                                  <BsLinkedin />
+                                             </a>
+                                        </div>
+                                        <div className="icon">
+                                             <a title='GitHub' href="https://github.com/Sarzil727945" target='_blank'>
+                                                  <span><FaGithub /></span>
+                                             </a>
+                                        </div>
+                                        <div className="icon">
+                                             <a title='Instagram' href="https://www.instagram.com/sarzilmuntaha" target='_blank'>
+                                                  <AiFillInstagram />
+                                             </a>
+                                        </div>
                                    </div>
                               </div>
-                         </div>
                     </div>
-                    <div className=' col-lg-7'>
+                    <div className=' col-lg-7  aos-init aos-animate' data-aos="fade-left"
+                         data-aos-offset="500" data-aos-easing="ease-in-sine">
                          <form className='p-lg-5 mx-lg-5' onSubmit={handleSubmit} ref={form}>
                               <div className="row px-4 pt-4">
                                    <div className="col-lg mb-2">

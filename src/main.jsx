@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
 import {
   createBrowserRouter,
   RouterProvider,

@@ -6,7 +6,6 @@ import Support from './Support/Support';
 import img from '../../../public/sm.png'
 import Contact from '../Contact/Contact';
 import { Link } from 'react-router-dom';
-import Footer from '../Shared/Footer/Footer';
 import Services from '../Services/Services';
 
 const Home = () => {
@@ -50,7 +49,7 @@ const Home = () => {
                                         </Link>
                                    </div>
                               </div>
-                              <div className=' col-lg-6 text-center '>
+                              <div className=' col-lg-6'>
                                    <img className='img-fluid myPic' src={img} alt="" />
                               </div>
                          </div>

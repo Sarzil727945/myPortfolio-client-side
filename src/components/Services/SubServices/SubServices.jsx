@@ -1,5 +1,9 @@
 import React from 'react';
 import './SubServices.css'
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+AOS.init();
+
 
 const SubServices = () => {
      return (
