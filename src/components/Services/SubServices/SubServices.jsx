@@ -11,7 +11,7 @@ const SubServices = () => {
                </div>
                <div className='  my-3'>
                     <div id='services'>
-                         <div className=' row my-5'>
+                         <div className=' row my-5 mx-lg-5 px-lg-4'>
                               <div className=' col-lg-6 px-5'>
                                    <div className=' d-flex justify-content-between Text-color'>
                                         <h5>HTML & CSS</h5>
@@ -31,7 +31,7 @@ const SubServices = () => {
                                    </div>
                               </div>
                          </div>
-                         <div className=' row my-5'>
+                         <div className=' row my-5 mx-lg-5 px-lg-4'>
                               <div className=' col-lg-6 px-5'>
                                    <div className=' d-flex justify-content-between Text-color'>
                                         <h5>JavaScript</h5>
@@ -53,7 +53,7 @@ const SubServices = () => {
                          </div>
                     </div>
                     <div id='contact'>
-                         <div className=' row my-5'>
+                         <div className=' row my-5 mx-lg-5 px-lg-4'>
                               <div className=' col-lg-6 px-5'>
                                    <div className=' d-flex justify-content-between Text-color'>
                                         <h5>Node JS</h5>
@@ -73,7 +73,7 @@ const SubServices = () => {
                                    </div>
                               </div>
                          </div>
-                         <div className=' row my-5 pb-5'>
+                         <div className=' row my-5 pb-5 mx-lg-5 px-lg-4'>
                               <div className=' col-lg-6 px-5'>
                                    <div className=' d-flex justify-content-between Text-color'>
                                         <h5>Firebase</h5>

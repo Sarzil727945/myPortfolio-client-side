@@ -12,7 +12,6 @@ import Header from '../Shared/Header/Header';
 import Footer from '../Shared/Footer/Footer';
 
 const Home = () => {
-     useTitle('Home')
      return (
           <div>
                <Header></Header>

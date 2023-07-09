@@ -11,7 +11,6 @@ import emailjs from '@emailjs/browser';
 import 'aos/dist/aos.css';
 
 const Contact = () => {
-     useTitle('Contact');
      const form = useRef();
      const [input1Value, setInput1Value] = useState('');
      const [input2Value, setInput2Value] = useState('');

@@ -7,7 +7,6 @@ import SubServices from './SubServices/SubServices';
 import Support from '../Home/Support/Support';
 
 const Services = () => {
-     useTitle('Services')
      const [servicesList, setServicesList] = useState([])
      useEffect(() => {
           fetch('servicesList.json')
@@ -37,7 +36,6 @@ const Services = () => {
                                                   </Link>
                                              </div>
                                         </div>)
-
                                    }
                               </div>
                          </Marquee >
