@@ -103,9 +103,9 @@ const Contact = () => {
      };
 
      return (
-          <div className=' mt-5 pt-5 container'>
+          <div className=' container pt-5'>
                <div className=' row d-flex align-items-center' >
-                    <div className=' col-lg-5 mb-3 aos-init aos-animate' data-aos="fade-right"  data-aos-offset="500" data-aos-easing="ease-in-sine">
+                    <div className=' col-lg-5 mb-3 pt-5' data-aos="fade-up">
                               <h2 className=' fw-bold Text-color pt-2'>Let's Connect</h2>
                               <p className=' py-2 fs-5 text-muted'>Please fill out the form on this section to contact with me. Or call between 8:00 a.m. and 10:00 p.m.</p>
                               
@@ -134,8 +134,7 @@ const Contact = () => {
                                    </div>
                               </div>
                     </div>
-                    <div className=' col-lg-7  aos-init aos-animate' data-aos="fade-left"
-                         data-aos-offset="500" data-aos-easing="ease-in-sine">
+                    <div className=' col-lg-7' data-aos="fade-up">
                          <form className='p-lg-5 mx-lg-5' onSubmit={handleSubmit} ref={form}>
                               <div className="row px-4 pt-4">
                                    <div className="col-lg mb-2">

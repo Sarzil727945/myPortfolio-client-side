@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import { Navbar } from 'react-bootstrap';
 import ActiveLink from '../../ActiveLink/ActiveLink';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 const Header = () => {
 
@@ -21,11 +23,16 @@ const Header = () => {
                                    style={{ maxHeight: '100px' }}
                                    navbarScroll
                               >
-                                   <span className=' pe-4'>
-                                        <ActiveLink to="/">Home</ActiveLink>
+                                   <span className=' pe-4 activeLink'>
+                                        <button className=' border-0 bg-light fw-semibold'>
+                                             <Link to="home" spy={true} smooth={true} offset={-50} duration={500} >Home</Link>
+                                        </button>
+
                                    </span>
-                                   <span className=' pe-4'>
-                                        <ActiveLink to="/services">Services</ActiveLink>
+                                   <span className=' pe-4 activeLink'>
+
+                                        <button className=' border-0 bg-light fw-semibold'><Link to="services" spy={true} smooth={true} offset={100} duration={500}>Services</Link></button>
+
                                    </span>
                                    <span className=' pe-4'>
                                         <ActiveLink to="/works">Works</ActiveLink>
@@ -33,8 +40,8 @@ const Header = () => {
                                    <span className=' pe-4'>
                                         <ActiveLink to="/blog">Blog</ActiveLink>
                                    </span>
-                                   <span >
-                                        <ActiveLink to="/contact">Contact</ActiveLink>
+                                   <span className='activeLink'>
+                                        <button className=' border-0 bg-light fw-semibold'><Link to="contact" spy={true} smooth={true} offset={100} duration={500}>Contact</Link> </button>
                                    </span>
                               </Nav>
                          </Navbar.Collapse>

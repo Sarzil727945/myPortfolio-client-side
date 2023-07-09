@@ -2,35 +2,16 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Main from './components/Main/Main.jsx';
 import Home from './components/Home/Home.jsx';
-import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
-import Contact from './components/Contact/Contact.jsx';
-import Services from './components/Services/Services';
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>,
-    errorElement: <ErrorPage></ErrorPage>,
-    children:[
-      {
-        path:'/',
-        element: <Home></Home>
-      },
-      {
-        path:'services',
-        element: <Services></Services>
-      },
-      {
-        path:'contact',
-        element: <Contact></Contact>
-      },
-    ]
+    element: <Home></Home>   
   },
 ]);
 
