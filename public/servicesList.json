@@ -19,9 +19,15 @@
     },
     {
         "_id": 4,
-        "name": "Content Writing",
+        "name": "Problem Solving",
         "job": "224 Jobs Available",
-        "img":"https://img.freepik.com/free-vector/hand-drawn-essay-illustration_23-2150310009.jpg?w=740&t=st=1687107168~exp=1687107768~hmac=b26cb3659b3d91776f1353091e27e3a6e02f9338cc69a177bbc47104e4aa93a7"
+        "img":"https://img.freepik.com/free-vector/flat-thinking-concept-dark-background_52683-9294.jpg?w=740&t=st=1689048782~exp=1689049382~hmac=9abf6332d681f218cc652f7a976e97ce86b1951afa3d6dce19a27f13b7290da6"
+    },
+    {
+        "_id": 5,
+        "name": "Teamwork Skills",
+        "job": "224 Jobs Available",
+        "img":"https://img.freepik.com/free-vector/teamwork-isometric-flowchart_1284-60662.jpg?w=740&t=st=1689049024~exp=1689049624~hmac=613300a456ec06d6d835ea2ff2137472709e1b0a54af5daf3a366c1855dd9cc6"
     }
     
 ]

@@ -25,19 +25,19 @@ const Support = () => {
                                              <img className='img-sizes' src="https://img.freepik.com/premium-photo/close-up-businessman-is-analyzing-data-office_33799-4480.jpg?w=1060" alt="" />
                                         </div>
                                         <div className=' ps-2'>
-                                             <h3 className='Text-color fw-bold'>35+Projects</h3>
-                                             <p className='org-color fw-bold fs-5'>Completed</p>
+                                             <h3 className='Text-color fw-bold'>40+Projects</h3>
+                                             <p className='org-color fw-semibold fs-5'>Completed</p>
                                         </div>
                                    </div>
                               </div>
                               <div >
                                    <div className='d-flex align-items-center py-3  border-style1'>
                                    <div className=' py-2 px-3'>
-                                   <img className='img-sizes' src="https://img.freepik.com/free-psd/marketing-concept-with-laptop_23-2149835023.jpg?w=740&t=st=1685693961~exp=1685694561~hmac=80d1c29dfb98e34d75f8bde89f6c6138705183dbabf897b5bd66a647aa6a9624" alt="" />
+                                   <img className='img-sizes' src="https://img.freepik.com/free-vector/teamwork-isometric-flowchart_1284-60662.jpg?w=740&t=st=1689049024~exp=1689049624~hmac=613300a456ec06d6d835ea2ff2137472709e1b0a54af5daf3a366c1855dd9cc6" alt="" />
                                    </div>
                                    <div className=' ps-2 pe-4'>
-                                        <h3 className='Text-color fw-bold'>5 Online</h3>
-                                        <p className='org-color fw-bold fs-5'>Support</p>
+                                        <h3 className='Text-color fw-bold'>5 Teamwork</h3>
+                                        <p className='org-color fw-semibold fs-5'>Support</p>
                                    </div>
                                    </div>
                               </div>
