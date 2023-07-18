@@ -1,0 +1,45 @@
+.pWeight{
+     width: 55%;
+   }
+   .pWeight1{
+     width: 63%;
+   }
+   .pWeight2{
+     width: 82%;
+   }
+   .pWeight3{
+     width: 72%;
+   }
+   .paddingStart{
+     padding: 0px 40px;
+   }
+   .weightHeight{
+     width: 44px;
+     height: 44px;
+     border-radius: 50%;
+     background-color: rgb(254, 83, 15);
+     color: aliceblue;
+     font-size: 26px;
+     text-align: center;
+     margin-bottom: 1px;
+     left: -23px;
+     top: -5px;
+   }
+   @media only screen and (max-width: 600px) {
+     .mtop{
+          margin-top: 50px;
+     }
+     .pWeight{
+       width: 100%;
+     }
+     .pWeight1{
+       width: 100%;
+     }
+     .pWeight2{
+       width: 100%;
+     }
+     .pWeight3{
+       width: 100%;
+     }
+   } 
+   

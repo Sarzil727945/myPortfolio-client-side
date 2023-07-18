@@ -1,0 +1,21 @@
+[
+    {
+        "_id": 1,
+        "name": "Web Design",
+        "job": "300 Jobs Available",
+        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+    },
+    {
+        "_id": 2,
+        "name": "Web Development",
+        "job": "100+ Jobs Available",
+        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+    },
+    {
+        "_id": 3,
+        "name": "Error Handling",
+        "job": "150 Jobs Available",
+        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+    }
+    
+]

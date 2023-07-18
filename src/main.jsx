@@ -11,12 +11,14 @@ import Home from './components/Home/Home.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home></Home>   
+    element: <Home></Home>
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <div className='background'>
+      <RouterProvider router={router} />
+    </div>
   </React.StrictMode>,
 )

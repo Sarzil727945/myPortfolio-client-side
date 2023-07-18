@@ -31,14 +31,11 @@ const Header = () => {
                                    </span>
                                    <span className=' pe-4 activeLink'>
 
-                                        <button className=' border-0 bg-light fw-semibold'><Link to="services" spy={true} smooth={true} offset={100} duration={500}>Services</Link></button>
+                                        <button className=' border-0 bg-light fw-semibold'><Link to="about" spy={true} smooth={true} offset={100} duration={500}>About</Link></button>
 
                                    </span>
-                                   <span className=' pe-4'>
-                                        <ActiveLink to="/works">Works</ActiveLink>
-                                   </span>
-                                   <span className=' pe-4'>
-                                        <ActiveLink to="/blog">Blog</ActiveLink>
+                                   <span className='activeLink'>
+                                        <button className=' border-0 bg-light fw-semibold'><Link to="projects" spy={true} smooth={true} offset={100} duration={500}>Projects</Link> </button>
                                    </span>
                                    <span className='activeLink'>
                                         <button className=' border-0 bg-light fw-semibold'><Link to="contact" spy={true} smooth={true} offset={100} duration={500}>Contact</Link> </button>

@@ -1,14 +1,15 @@
 import React, { useRef, useState } from 'react';
 import './Contact.css'
-import { FaGithub } from 'react-icons/fa';
+import { FaEnvelopeOpen, FaGithub, FaPaperPlane, FaPhoneSquareAlt } from 'react-icons/fa';
 import { BsFacebook, BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
+import { BsSendFill } from 'react-icons/bs';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Swal from 'sweetalert2';
-import useTitle from '../../hooks/useTitle';
 import emailjs from '@emailjs/browser';
 import 'aos/dist/aos.css';
+import { Link } from 'react-scroll';
 
 const Contact = () => {
      const form = useRef();
@@ -102,14 +103,47 @@ const Contact = () => {
      };
 
      return (
-          <div className=' container pt-5'>
-               <div className=' row d-flex align-items-center' >
-                    <div className=' col-lg-5 mb-3 pt-5' data-aos="fade-up">
-                              <h2 className=' fw-bold Text-color pt-2'>Let's Connect</h2>
-                              <p className=' py-2 fs-5 text-muted'>Please fill out the form on this section to contact with me. Or call between 8:00 a.m. and 10:00 p.m.</p>
-                              
+          <div>
+               <div className=' container pt-5'>
+                    <div className=' text-center '>
+                         <h2 className='fw-bold Text-color mt-4 display-4'>GET IN <span className='org-color'>TOUCH</span></h2>
+                    </div>
+                    <div className=' row d-flex align-items-center' >
+                         <div className=' col-lg-4 mb-3 pt-5' data-aos="fade-up">
+                              <div className='px-lg-0  px-3'>
+                                   <h2 className=' fw-bold Text-color pt-2'>DON'T BE SHY !</h2>
+                                   <p className=' py-2 fs-5 text-muted'>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                              </div>
                               <div>
-                                   <div className=" d-flex justifySmCenter">
+                                   <div className=' d-flex'>
+                                        <div className=' icon iconColor'>
+                                             <FaEnvelopeOpen />
+                                        </div>
+                                        <div className=' ms-2 mt-1'>
+                                             <p className='lingHeight'>
+                                                  <span className=' d-block text-muted fw-semibold'>MAIL ME</span>
+                                                  <span>
+                                                       <a href="https://mail.google.com/mail/u/0/#inbox" className=' text-decoration-none text-dark  fontSize'>sarzilmuntaha@gmail.com</a>
+                                                  </span>
+                                             </p>
+                                        </div>
+                                   </div>
+                                   <div className=' d-flex'>
+                                        <div className=' icon iconColor'>
+                                             <FaPhoneSquareAlt />
+                                        </div>
+                                        <div className=' ms-2 '>
+                                             <p className='lingHeight'>
+                                                  <span className=' d-block text-muted fw-semibold'>CALL ME</span>
+                                                  <span className='  fontSize'>
+                                                       +880 1893264443
+                                                  </span>
+                                             </p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div>
+                                   <div className=" d-flex justifySmCenter mt-2">
                                         <div className="icon">
                                              <a title='Facebook' href="https://www.facebook.com/smsarzil.muntaha" target='_blank'>
                                                   <span><BsFacebook /></span>
@@ -132,47 +166,50 @@ const Contact = () => {
                                         </div>
                                    </div>
                               </div>
-                    </div>
-                    <div className=' col-lg-7' data-aos="fade-up">
-                         <form className='p-lg-5 mx-lg-5' onSubmit={handleSubmit} ref={form}>
-                              <div className="row px-4 pt-4">
-                                   <div className="col-lg mb-2">
-                                        <input value={input1Value}
-                                             onChange={handleInput1Change} type="text" name='name' className="form-control py-2" placeholder="Your name" aria-label="name" required />
+                         </div>
+                         <div className=' col-lg-8' data-aos="fade-up">
+                              <form className='p-lg-5 ms-lg-5' onSubmit={handleSubmit} ref={form}>
+                                   <div className=' d-lg-flex'>
+                                        <div className="row ps-4 pt-4 w-100">
+                                             <div className="col-lg mb-2">
+                                                  <input value={input1Value}
+                                                       onChange={handleInput1Change} type="text" name='name' className="form-control inputRadius inputPadding" placeholder="YOUR NAME" aria-label="name" required />
+                                             </div>
+                                        </div>
+                                        <div className="row ps-4 pe-lg-4 pt-4 w-100">
+                                             <div className="col-xl mb-2">
+                                                  <input value={input2Value}
+                                                       onChange={handleInput2Change} type="email" name='email'
+                                                       className="form-control inputRadius inputPadding" placeholder="YOUR EMAIL" aria-label="email"
+                                                       ref={emailRef}
+                                                       required />
+                                             </div>
+                                             {
+                                                  emailError && <span className=' text-danger'>{emailError}</span>
+                                             }
+                                        </div>
                                    </div>
-                              </div>
-                              <div className="row px-4 pt-4">
-                                   <div className="col-lg mb-2">
-                                        <input value={input2Value}
-                                             onChange={handleInput2Change} type="email" name='email'
-                                             className="form-control py-2" placeholder="Your email" aria-label="email"
-                                             ref={emailRef}
-                                             required />
+                                   <div className="row px-4 py-4">
+                                        <div className="col-lg mb-2">
+                                             <input value={input3Value}
+                                                  onChange={handleInput3Change} type="text" name='subject' className="form-control inputRadius inputPadding" placeholder="YOUR SUBJECT" aria-label="false" required />
+                                        </div>
                                    </div>
-                                   {
-                                        emailError && <span className=' text-danger'>{emailError}</span>
-                                   }
-                              </div>
-                              <div className="row px-4 py-4">
-                                   <div className="col-lg mb-2">
-                                        <input value={input3Value}
-                                             onChange={handleInput3Change} type="text" name='subject' className="form-control py-2" placeholder="Your subject" aria-label="false" required />
+                                   <div className="px-4 pb-3">
+                                        <textarea name='message' className="form-control inputRadius inputPadding" id="validationTextarea"
+                                             aria-invalid="false" placeholder="YOUR MESSAGE" rows="5"></textarea>
                                    </div>
-                              </div>
-                              <div className="px-4 pb-3">
-                                   <textarea name='message' className="form-control py-2" id="validationTextarea"
-                                        aria-invalid="false" placeholder="Your message" rows="5"></textarea>
-                              </div>
-                              <div className='px-4 my-2'>
-                                   <div>
-                                        <button type="submit" className="sendButton" onClick={() => notify()}>
+                                   <div className='px-4 mt-3 mb-2'>
+                                        <div>
+                                             <button type="submit" className="sendButton" onClick={() => notify()}>
 
-                                             Send Message
-                                        </button>
-                                        {!isFormFilled && <ToastContainer />}
+                                                  Send Message  <FaPaperPlane />
+                                             </button>
+                                             {!isFormFilled && <ToastContainer />}
+                                        </div>
                                    </div>
-                              </div>
-                         </form>
+                              </form>
+                         </div>
                     </div>
                </div>
           </div>

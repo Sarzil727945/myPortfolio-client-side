@@ -1,15 +1,14 @@
 import React from 'react';
 import './Home.css';
 import { TypeAnimation } from 'react-type-animation';
-import useTitle from '../../hooks/useTitle';
-import Support from './Support/Support';
 import img from '../../../public/sm.png'
 import Contact from '../Contact/Contact';
 import { BiCloudDownload } from 'react-icons/bi';
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import Services from '../Services/Services';
 import Header from '../Shared/Header/Header';
 import Footer from '../Shared/Footer/Footer';
+import Project from '../../Project/Project';
+import About from '../About/About';
 
 const Home = () => {
      return (
@@ -21,7 +20,7 @@ const Home = () => {
                               <div className='row d-flex align-items-center mt-lg-5 pt-2'>
                                    <div className='py-5 col-lg-6 px-3'>
                                         <div className='textSmCenter'>
-                                             <h3 className=' org-color fw-bold ling-height'>Hi, I'm </h3>
+                                             <h3 className=' org-color fw-bold ling-height'>Hi there, I'm </h3>
                                              <h1 className='fw-bold Text-color name'>Sarzil Muntaha</h1>
                                         </div>
                                         <h4 className=' Text-color fw-bold py-2'>
@@ -29,18 +28,18 @@ const Home = () => {
                                                   <span>I'm A</span>{' '}
                                                   <TypeAnimation
                                                        sequence={[
-                                                            'MERN Stack Web Developer',
+                                                            'Website Developer',
                                                             1000,
-                                                            'Student of CSE Department',
+                                                            'Software Developer',
                                                             1000,
                                                        ]}
                                                        repeat={Infinity}
                                                   />
                                              </span></h4>
-                                        <p className=' text-muted fw-semibold pe-lg-5'>
-                                             I am a MERN stack web developer. And I am a student of Computer Science an Engineer (CSE) department of
-                                             Green University Of Bangladesh. I was a batch seven MERN stack web developer student of Programming
-                                             Hero. Well-versed HTML5, CSS3, Bootstrap, Tailwind, JavaScript, React, Express.JS, MongoDB.
+                                        <p className=' text-muted fw-semibold pe-lg-5 fontSize'>
+                                             I'm a Sarzil Muntaha, Since Now, I have 1 years plus of extensive hands on experience of website development and Software Development. <br />
+                                              I have a high level of personal morals and integrity. I am Goal oriented, self-motivated and committed to the successful outcome of the project. I am willing to work hard and have a great desire to learn. <br />
+                                             I am passionate about building excellent software that improves the lives of those around me.
                                         </p>
                                         <div className='mt-5'>
                                              <button className='borderNone'>
@@ -61,10 +60,15 @@ const Home = () => {
                     </div>
                </div>
                <div className=' mt-lg-5 pt-lg-3'>
-                    <Services></Services>
+                    <About></About>
                </div>
-
-               <div data-aos="fade-up">
+               <div >
+                    <Project></Project>
+               </div>
+               <div id='contact'>
+                    <Contact></Contact>
+               </div>
+               <div>
                     <Footer></Footer>
                </div>
           </div>

@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import './Services.css';
+import './About.css';
 import Marquee from "react-fast-marquee";
 import { Link } from 'react-router-dom';
-import useTitle from '../../hooks/useTitle';
-import SubServices from './SubServices/SubServices';
 import Support from '../Home/Support/Support';
+import { BsFillArrowUpCircleFill } from 'react-icons/bs';
+import SkillAbout from './SkillAbout/SkillAbout';
+import Education from './Education/Education';
 
-const Services = () => {
+const About = () => {
      const [servicesList, setServicesList] = useState([])
      useEffect(() => {
           fetch('servicesList.json')
@@ -16,11 +17,16 @@ const Services = () => {
 
      return (
           <div>
-               <div id='services'>
-                    <div data-aos="fade-up">
+               <div id='about'>
+                    <div data-aos="fade-up" className=' mb-lg-5 pb-lg-5'>
                          <Support></Support>
                     </div>
-                    <div className=' mt-5'>
+                    <div className=' me-2 mt-lg-5 pt-lg-5'>
+                         <p className="fixed-bottom  text-end Position">
+                              <a href="#" className=' text-decoration-none hoverColor'><span className=' fs-2 '><BsFillArrowUpCircleFill /></span></a>
+                         </p>
+                    </div>
+                    <div>
                          <Marquee>
                               <div className=' d-flex mt-5 mb-3'>
                                    {
@@ -40,12 +46,17 @@ const Services = () => {
                               </div>
                          </Marquee >
                     </div >
-               </div>
-               <div data-aos="fade-up">
-                    <SubServices></SubServices>
+                    <div className='section-1'>
+                         <div data-aos="fade-up">
+                              <SkillAbout></SkillAbout>
+                         </div>
+                         <div>
+                              <Education></Education>
+                         </div>
+                    </div>
                </div>
           </div>
      );
 };
 
-export default Services;
+export default About;

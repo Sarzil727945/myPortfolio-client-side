@@ -9,3 +9,12 @@
      height: 88px;
      border-radius: 50%;
 }
+.Position{
+     right: 20px;
+}
+.hoverColor{
+     color: rgb(120, 118, 118);
+}
+.hoverColor:hover{
+     color: rgb(254, 95, 37);
+}

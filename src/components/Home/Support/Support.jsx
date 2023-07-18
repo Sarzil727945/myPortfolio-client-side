@@ -25,7 +25,7 @@ const Support = () => {
                                              <img className='img-sizes' src="https://img.freepik.com/premium-photo/close-up-businessman-is-analyzing-data-office_33799-4480.jpg?w=1060" alt="" />
                                         </div>
                                         <div className=' ps-2'>
-                                             <h3 className='Text-color fw-bold'>40+Projects</h3>
+                                             <h3 className='Text-color fw-bold'>40+ Projects</h3>
                                              <p className='org-color fw-semibold fs-5'>Completed</p>
                                         </div>
                                    </div>
@@ -36,7 +36,7 @@ const Support = () => {
                                    <img className='img-sizes' src="https://img.freepik.com/free-vector/teamwork-isometric-flowchart_1284-60662.jpg?w=740&t=st=1689049024~exp=1689049624~hmac=613300a456ec06d6d835ea2ff2137472709e1b0a54af5daf3a366c1855dd9cc6" alt="" />
                                    </div>
                                    <div className=' ps-2 pe-4'>
-                                        <h3 className='Text-color fw-bold'>5 Teamwork</h3>
+                                        <h3 className='Text-color fw-bold'>5+ Teamwork</h3>
                                         <p className='org-color fw-semibold fs-5'>Support</p>
                                    </div>
                                    </div>

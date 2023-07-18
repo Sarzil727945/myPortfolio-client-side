@@ -1,3 +1,6 @@
+.background{
+  background-color: rgb(248, 249, 249);
+}
 .iconColor{
     color: #132963;
 }
@@ -5,6 +8,9 @@
      width: 50px; 
      text-align: center;
      font-size: 30px;
+ }
+ .iconColor{
+   color: #eb4d3c !important;
  }
  .icon a{
     color: rgb(66, 64, 64);
@@ -25,8 +31,17 @@
     cursor: pointer;
     border-radius: 50px;
   }
+  .lingHeight{
+    line-height: 1.%;
+  }
   @media only screen and (max-width: 600px) {
     .justifySmCenter {
         justify-content: center !important;
     }
+}
+.inputRadius{
+  border-radius: 25px;
+}
+.inputPadding{
+padding: 11px 22px;
 }

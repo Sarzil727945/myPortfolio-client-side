@@ -1,0 +1,16 @@
+.image-wrap {
+     height: 333px;
+     overflow: hidden;
+ }
+ .image-wrap img {
+     width: 100%;
+     height: 100%;
+     -o-object-fit: cover;
+     object-fit: cover;
+     -o-object-position: top center;
+     object-position: top center;
+     transition: all 1s ease-in-out;
+ }
+ .image-wrap:hover img{
+     object-position: bottom center;
+ }

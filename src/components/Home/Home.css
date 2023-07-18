@@ -1,6 +1,7 @@
 
 .section-1 {
      background-color: #f5f2f0;
+     
 }
 
 .org-color {
@@ -83,4 +84,7 @@
      .myPic{
           height: 444px;
      }
+}
+.fontSize{
+     font-size: 17px;
 }
