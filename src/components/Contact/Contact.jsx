@@ -124,7 +124,7 @@ const Contact = () => {
                                                        <i className=' d-block text-muted fw-semibold'>MAIL ME</i>
                                                   </div>
                                                   <div>
-                                                       <a href="https://mail.google.com/mail/u/0/#inbox" className=' text-decoration-none text-dark  fontSize'>sarzilmuntaha@gmail.com</a>
+                                                       <a href="https://mail.google.com/mail/u/0/#inbox" className=' text-decoration-none text-dark  fontSize' target='_blank'>sarzilmuntaha@gmail.com</a>
                                                   </div>
                                         </div>
                                    </div>

@@ -37,10 +37,10 @@ const Project = () => {
                               </div>
                          </div>
                     </div>
-                    <div className=' text-center my-5 pt-3'>
+                    <div className=' text-center my-5 pt-4'>
                          <h2 className='fw-bold Text-color mt-2 display-4'>SOME OF <span className='org-color'>PROJECTS</span></h2>
                     </div>
-                    <div className='row mb-2 mx-lg-5 px-lg-3'>
+                    <div className='row mt-2 mx-lg-5 px-lg-3'>
                          {
                               projectData?.map(data => <AllProject
                                    key={data._id}
@@ -49,10 +49,9 @@ const Project = () => {
                          }
                     </div>
                </div>
-               <div>
-
-                    <div id='contact'>
-                         <div>
+               <div id='contact'>
+                    <div className=' mt-lg-5 pt-lg-5'>
+                         <div className=' pt-lg-5 mt-lg-3'>
                               <Contact></Contact>
                          </div>
                     </div>

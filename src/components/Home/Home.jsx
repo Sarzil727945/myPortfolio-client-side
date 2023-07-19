@@ -22,7 +22,7 @@ const Home = () => {
                                              <h3 className=' org-color fw-bold ling-height'>Hi there, I'm </h3>
                                              <h1 className='fw-bold Text-color name'>Sarzil Muntaha</h1>
                                         </div>
-                                        <h4 className=' Text-color fw-bold py-2'>
+                                        <h4 className=' Text-color fw-bold py-2 mx-lg-0 mx-2'>
                                              <span>
                                                   <span>I'm A</span>{' '}
                                                   <TypeAnimation
@@ -35,7 +35,7 @@ const Home = () => {
                                                        repeat={Infinity}
                                                   />
                                              </span></h4>
-                                        <p className=' text-muted fw-semibold pe-lg-5 fontSize'>
+                                        <p className=' text-muted fw-semibold pe-lg-5 fontSize mx-lg-0 mx-2'>
                                              I'm a Sarzil Muntaha, Since Now, I have 1 years plus of extensive hands on experience of website development and Software Development. <br />
                                               I have a high level of personal morals and integrity. I am Goal oriented, self-motivated and committed to the successful outcome of the project. I am willing to work hard and have a great desire to learn. <br />
                                              I am passionate about building excellent software that improves the lives of those around me.
