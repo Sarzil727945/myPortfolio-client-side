@@ -15,7 +15,6 @@ const AllProject = ({ data }) => {
                               <p className="card-text"><b>Price:</b> {price} Tk</p>
                               <p className="card-text"><b>Rating:</b> {rating}</p>
                          </div>
-
                     </div>
                </div>
           </div>

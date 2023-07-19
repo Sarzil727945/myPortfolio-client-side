@@ -2,12 +2,11 @@ import React from 'react';
 import './Home.css';
 import { TypeAnimation } from 'react-type-animation';
 import img from '../../../public/sm.png'
-import Contact from '../Contact/Contact';
 import { BiCloudDownload } from 'react-icons/bi';
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Header from '../Shared/Header/Header';
 import Footer from '../Shared/Footer/Footer';
-import Project from '../../Project/Project';
+import Project from '../Project/Project';
 import About from '../About/About';
 
 const Home = () => {
@@ -64,9 +63,6 @@ const Home = () => {
                </div>
                <div >
                     <Project></Project>
-               </div>
-               <div id='contact'>
-                    <Contact></Contact>
                </div>
                <div>
                     <Footer></Footer>

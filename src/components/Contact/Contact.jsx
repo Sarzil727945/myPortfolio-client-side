@@ -111,7 +111,7 @@ const Contact = () => {
                     <div className=' row d-flex align-items-center' >
                          <div className=' col-lg-4 mb-3 pt-5' data-aos="fade-up">
                               <div className='px-lg-0  px-3'>
-                                   <h2 className=' fw-bold Text-color pt-2'>DON'T BE SHY !</h2>
+                                   <h2 className=' fw-bold Text-color'>DON'T BE SHY !</h2>
                                    <p className=' py-2 fs-5 text-muted'>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
                               </div>
                               <div>
@@ -119,26 +119,28 @@ const Contact = () => {
                                         <div className=' icon iconColor'>
                                              <FaEnvelopeOpen />
                                         </div>
-                                        <div className=' ms-2 mt-1'>
-                                             <p className='lingHeight'>
-                                                  <span className=' d-block text-muted fw-semibold'>MAIL ME</span>
-                                                  <span>
+                                        <div className=' ms-2'>
+                                                  <div>
+                                                       <i className=' d-block text-muted fw-semibold'>MAIL ME</i>
+                                                  </div>
+                                                  <div>
                                                        <a href="https://mail.google.com/mail/u/0/#inbox" className=' text-decoration-none text-dark  fontSize'>sarzilmuntaha@gmail.com</a>
-                                                  </span>
-                                             </p>
+                                                  </div>
                                         </div>
                                    </div>
-                                   <div className=' d-flex'>
+                                   <div className=' d-flex mt-3'>
                                         <div className=' icon iconColor'>
                                              <FaPhoneSquareAlt />
                                         </div>
                                         <div className=' ms-2 '>
-                                             <p className='lingHeight'>
-                                                  <span className=' d-block text-muted fw-semibold'>CALL ME</span>
-                                                  <span className='  fontSize'>
+                                             <div>
+                                                  <i className=' d-block text-muted fw-semibold'>CALL ME</i>
+                                             </div>
+                                             <div>
+                                                  <p className='  fontSize'>
                                                        +880 1893264443
-                                                  </span>
-                                             </p>
+                                                  </p>
+                                             </div>
                                         </div>
                                    </div>
                               </div>

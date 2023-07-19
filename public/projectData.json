@@ -16,6 +16,60 @@
         "name": "Error Handling",
         "job": "150 Jobs Available",
         "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+    },
+    {
+        "_id": 4,
+        "name": "Web Design",
+        "job": "300 Jobs Available",
+        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+    },
+    {
+        "_id": 5,
+        "name": "Web Development",
+        "job": "100+ Jobs Available",
+        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+    },
+    {
+        "_id": 6,
+        "name": "Error Handling",
+        "job": "150 Jobs Available",
+        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+    },
+    {
+        "_id": 7,
+        "name": "Web Design",
+        "job": "300 Jobs Available",
+        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+    },
+    {
+        "_id": 8,
+        "name": "Web Development",
+        "job": "100+ Jobs Available",
+        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+    },
+    {
+        "_id": 9,
+        "name": "Error Handling",
+        "job": "150 Jobs Available",
+        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+    },
+    {
+        "_id": 10,
+        "name": "Web Design",
+        "job": "300 Jobs Available",
+        "img":"https://i.ibb.co/55CPYHx/Project10.png"
+    },
+    {
+        "_id": 11,
+        "name": "Web Development",
+        "job": "100+ Jobs Available",
+        "img":"https://i.ibb.co/6bLqVWt/Project11.png"
+    },
+    {
+        "_id": 12,
+        "name": "Error Handling",
+        "job": "150 Jobs Available",
+        "img":"https://i.ibb.co/vZ3Vqwp/Projects12.png"
     }
     
 ]
