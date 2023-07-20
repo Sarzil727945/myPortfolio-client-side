@@ -21,55 +21,66 @@
         "_id": 4,
         "name": "Web Design",
         "job": "300 Jobs Available",
-        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+        "img":"https://i.ibb.co/6ng6QHG/resturent.png"
     },
     {
         "_id": 5,
         "name": "Web Development",
         "job": "100+ Jobs Available",
-        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+        "img":"https://i.ibb.co/z2Yr5Mh/cardocter.png"
     },
     {
         "_id": 6,
         "name": "Error Handling",
         "job": "150 Jobs Available",
-        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+        "img":"https://i.ibb.co/3mrb5c7/foot.png"
     },
     {
         "_id": 7,
-        "name": "Web Design",
-        "job": "300 Jobs Available",
-        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+        "name": "Dream Job",
+        "img":"https://i.ibb.co/sKzXhSY/job.png",
+        "gitHub": "https://github.com/Sarzil727945/Dream-Job",
+        "liveSite": "https://dream-all-jobs.netlify.app/"    
     },
     {
         "_id": 8,
-        "name": "Web Development",
-        "job": "100+ Jobs Available",
-        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+        "img":"https://i.ibb.co/mzznCCn/Ai.png",
+        "name": "AI Universe Hub",
+        "gitHub": "https://github.com/Sarzil727945/AI-Universe-Hub",
+        "liveSite": "https://ai-universes-hub.netlify.app/"
+        
     },
     {
         "_id": 9,
-        "name": "Error Handling",
-        "job": "150 Jobs Available",
-        "img":"https://i.ibb.co/M9d6Jm5/Project9.png"
+        "img":"https://i.ibb.co/hLVhkB3/project7.png",
+        "name": "Quiz Hero",
+        "gitHub": "https://github.com/Sarzil727945/Quiz-Hero",
+        "liveSite": "https://quizs-hero.netlify.app/"
+        
     },
     {
         "_id": 10,
-        "name": "Web Design",
-        "job": "300 Jobs Available",
-        "img":"https://i.ibb.co/55CPYHx/Project10.png"
+        "img":"https://i.ibb.co/vVbSYpv/projecthcj.png",
+        "name": "Funding Agency",
+        "gitHub": "https://github.com/Sarzil727945/Funding-Agency",
+        "liveSite": "https://funding-agency.netlify.app/"
+        
     },
     {
         "_id": 11,
-        "name": "Web Development",
-        "job": "100+ Jobs Available",
-        "img":"https://i.ibb.co/6bLqVWt/Project11.png"
+        "img":"https://i.ibb.co/6bLqVWt/Project11.png",
+        "name": "Justice Design",
+        "gitHub": "https://github.com/Sarzil727945/Justice",
+        "liveSite": "https://justicedesign.netlify.app/"
+        
     },
     {
         "_id": 12,
-        "name": "Error Handling",
-        "job": "150 Jobs Available",
-        "img":"https://i.ibb.co/vZ3Vqwp/Projects12.png"
+        "img":"https://i.ibb.co/vZ3Vqwp/Projects12.png",
+        "name": "G3 Architects",
+        "gitHub": "https://github.com/Sarzil727945/G3-Architects",
+        "liveSite": "https://g3architects.netlify.app/"
+        
     }
     
 ]

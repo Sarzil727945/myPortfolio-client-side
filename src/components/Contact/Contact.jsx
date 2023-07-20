@@ -137,9 +137,7 @@ const Contact = () => {
                                                   <i className=' d-block text-muted fw-semibold'>CALL ME</i>
                                              </div>
                                              <div>
-                                                  <p className='  fontSize'>
-                                                       +880 1893264443
-                                                  </p>
+                                                  <a href="tel:+8801893254443" className=' text-decoration-none text-dark  fontSize'>+880 1803254443</a>
                                              </div>
                                         </div>
                                    </div>

@@ -14,3 +14,26 @@
  .image-wrap:hover img{
      object-position: bottom center;
  }
+ .pIHoverColor{
+    color: rgb(28, 28, 28);
+}
+.pIHoverColor:hover{
+    color: rgb(254, 95, 37);
+}
+@keyframes gradientAnimation {
+     0% {
+       background-position: 0%;
+     }
+     100% {
+       background-position: 100%;
+     }
+   }
+   
+   .gradient-text {
+     background-image: linear-gradient(to right, #278883, #cb5c48, #298c87);
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+     animation: gradientAnimation 3s linear infinite;
+     font-weight: 900;
+   }
