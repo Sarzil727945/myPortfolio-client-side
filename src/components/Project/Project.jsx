@@ -5,11 +5,15 @@ import Contact from '../Contact/Contact';
 
 
 const Project = () => {
+     const [isLoading, setIsLoading] = useState(true);
      const [projectData, setProjectData] = useState([])
      useEffect(() => {
           fetch('projectData.json')
                .then(res => res.json())
-               .then(data => setProjectData(data))
+               .then(data => {
+                    setProjectData(data);
+                    setIsLoading(false)
+               })
      }, [])
 
      return (
@@ -48,6 +52,13 @@ const Project = () => {
                               ></AllProject>)
                          }
                     </div>
+                    {
+                         isLoading && <div className="text-center my-5">
+                              <div className="spinner-border text-warning" role="status">
+                                   <span className="visually-hidden">Loading...</span>
+                              </div>
+                         </div>
+                    }
                </div>
                <div id='contact'>
                     <div className=' mt-lg-5 pt-lg-5'>
@@ -56,6 +67,7 @@ const Project = () => {
                          </div>
                     </div>
                </div>
+
           </div>
      );
 };

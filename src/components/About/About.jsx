@@ -12,7 +12,9 @@ const About = () => {
      useEffect(() => {
           fetch('servicesList.json')
                .then(res => res.json())
-               .then(data => setServicesList(data))
+               .then(data => {
+                    setServicesList(data);
+               })
      }, [])
 
      return (
@@ -55,6 +57,7 @@ const About = () => {
                          </div>
                     </div>
                </div>
+
           </div>
      );
 };
