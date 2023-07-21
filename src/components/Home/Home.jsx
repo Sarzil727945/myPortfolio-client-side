@@ -42,7 +42,7 @@ const Home = () => {
                                         </p>
                                         <div className='mt-5'>
                                              <button className='borderNone'>
-                                                  <a className='aBtn button2' href="https://drive.google.com/file/d/1Q9sz0uzkLK6M4xOn2zZEkQntoR-tj5RG/view?usp=sharing" target='_blank'>
+                                                  <a className='aBtn button2' href="https://drive.google.com/file/d/1l8i7adD8wphWS7jxwOa2fctGe78HjcdG/view?usp=sharing" target='_blank'>
                                                        <span><span className='iconSize'><BiCloudDownload /></span> Resume</span>
                                                   </a>
                                              </button>
