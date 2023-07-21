@@ -1,2 +1,1 @@
-# myPortfolio-client-site 
-# LiveSite: https://sarzilmuntaha.netlify.app/
+# myPortfolio-client-side
