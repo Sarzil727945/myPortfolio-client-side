@@ -3,7 +3,8 @@
         "_id": 1,
         "name": "Web Design",
         "job": "300 Jobs Available",
-        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png"
+        "img":"https://i.ibb.co/q9g7jw5/Screenshot-2023-06-27-at-14-07-51-Vite-React.png",
+        "technology ": "HTML5, CSS3"
     },
     {
         "_id": 2,
@@ -25,29 +26,35 @@
     },
     {
         "_id": 5,
-        "name": "Web Development",
-        "job": "100+ Jobs Available",
-        "img":"https://i.ibb.co/z2Yr5Mh/cardocter.png"
+        "name": "Car Doctor",
+        "img":"https://i.ibb.co/z2Yr5Mh/cardocter.png",
+        "gitHub": "https://github.com/Sarzil727945/Car-Doctor-client-side",
+        "liveSite": "https://cars-doctor.netlify.app/",
+        "technology": "ReactJs, JavaScript, Bootstrap, CSS3,  HTML5" 
     },
     {
         "_id": 6,
-        "name": "Error Handling",
-        "job": "150 Jobs Available",
-        "img":"https://i.ibb.co/3mrb5c7/foot.png"
+        "img":"https://i.ibb.co/3mrb5c7/foot.png",
+        "name": "Food Taste",
+        "gitHub": "https://github.com/Sarzil727945/Food-Taste-client-side",
+        "liveSite": "https://foods-taste.netlify.app/",
+        "technology": "ReactJs, JavaScript, Bootstrap, CSS3,  HTML5" 
     },
     {
         "_id": 7,
-        "name": "Dream Job",
         "img":"https://i.ibb.co/sKzXhSY/job.png",
+        "name": "Dream Job",
         "gitHub": "https://github.com/Sarzil727945/Dream-Job",
-        "liveSite": "https://dream-all-jobs.netlify.app/"    
+        "liveSite": "https://dream-all-jobs.netlify.app/",
+        "technology": "ReactJs, JavaScript, Bootstrap, CSS3,  HTML5" 
     },
     {
         "_id": 8,
         "img":"https://i.ibb.co/mzznCCn/Ai.png",
         "name": "AI Universe Hub",
         "gitHub": "https://github.com/Sarzil727945/AI-Universe-Hub",
-        "liveSite": "https://ai-universes-hub.netlify.app/"
+        "liveSite": "https://ai-universes-hub.netlify.app/",
+        "technology": "JavaScript, Bootstrap, HTML5"
         
     },
     {
@@ -55,7 +62,8 @@
         "img":"https://i.ibb.co/hLVhkB3/project7.png",
         "name": "Quiz Hero",
         "gitHub": "https://github.com/Sarzil727945/Quiz-Hero",
-        "liveSite": "https://quizs-hero.netlify.app/"
+        "liveSite": "https://quizs-hero.netlify.app/",
+        "technology": "JavaScript, Bootstrap, HTML5"
         
     },
     {
@@ -63,7 +71,8 @@
         "img":"https://i.ibb.co/vVbSYpv/projecthcj.png",
         "name": "Funding Agency",
         "gitHub": "https://github.com/Sarzil727945/Funding-Agency",
-        "liveSite": "https://funding-agency.netlify.app/"
+        "liveSite": "https://funding-agency.netlify.app/",
+        "technology": "JavaScript, Bootstrap, CSS3, HTML5"
         
     },
     {
@@ -71,7 +80,8 @@
         "img":"https://i.ibb.co/6bLqVWt/Project11.png",
         "name": "Justice Design",
         "gitHub": "https://github.com/Sarzil727945/Justice",
-        "liveSite": "https://justicedesign.netlify.app/"
+        "liveSite": "https://justicedesign.netlify.app/",
+        "technology": "Bootstrap, CSS3, HTML5"
         
     },
     {
@@ -79,7 +89,8 @@
         "img":"https://i.ibb.co/vZ3Vqwp/Projects12.png",
         "name": "G3 Architects",
         "gitHub": "https://github.com/Sarzil727945/G3-Architects",
-        "liveSite": "https://g3architects.netlify.app/"
+        "liveSite": "https://g3architects.netlify.app/",
+        "technology": "CSS3, HTML5"
         
     }
     

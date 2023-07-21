@@ -1,39 +1,61 @@
 .image-wrap {
-     height: 255px;
-     overflow: hidden;
- }
- .image-wrap img {
-     width: 100%;
-     height: 100%;
-     -o-object-fit: cover;
-     object-fit: cover;
-     -o-object-position: top center;
-     object-position: top center;
-     transition: all 1s ease-in-out;
- }
- .image-wrap:hover img{
-     object-position: bottom center;
- }
- .pIHoverColor{
-    color: rgb(28, 28, 28);
+  height: 277px;
+  overflow: hidden;
 }
-.pIHoverColor:hover{
-    color: rgb(254, 95, 37);
+
+.image-wrap img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top center;
+  object-position: top center;
+  transition: all 1s ease-in-out;
 }
-@keyframes gradientAnimation {
-     0% {
-       background-position: 0%;
-     }
-     100% {
-       background-position: 100%;
-     }
-   }
-   
-   .gradient-text {
-     background-image: linear-gradient(to right, #278883, #cb5c48, #298c87);
-     background-clip: text;
-     -webkit-background-clip: text;
-     color: transparent;
-     animation: gradientAnimation 3s linear infinite;
-     font-weight: 900;
-   }
+
+.image-wrap:hover img {
+  object-position: bottom center;
+}
+
+.pIHoverColor {
+  color: rgb(28, 28, 28);
+}
+
+.pIHoverColor:hover {
+  color: rgb(254, 95, 37);
+}
+
+ /* hover start  */
+.portfolio_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 15px;
+}
+.portfolio {
+  position: relative;
+}
+
+.portfolio_overlay {
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 0;
+  opacity: 0;
+  transition: all .3s;
+}
+.portfolio:hover .portfolio_overlay {
+  height: 100%;
+  opacity: 1;
+}
+
+.portfolio img {
+  object-fit: cover;
+  height: 100%;
+}
+

@@ -14,7 +14,7 @@ const SkillAbout = () => {
                               <div className=' row my-5 mx-lg-5 px-lg-4'>
                                    <div className=' col-lg-6 px-5'>
                                         <div className=' d-flex justify-content-between Text-color'>
-                                             <h5>HTML & CSS</h5>
+                                             <h5>HTML5 & CSS3</h5>
                                              <p className=' fw-bold'>95%</p>
                                         </div>
                                         <div className="progress">
@@ -43,7 +43,7 @@ const SkillAbout = () => {
                                    </div>
                                    <div className=' col-lg-6 px-5 mtop'>
                                         <div className=' d-flex justify-content-between Text-color'>
-                                             <h5>React</h5>
+                                             <h5>React JS</h5>
                                              <p className=' fw-bold'>90%</p>
                                         </div>
                                         <div className="progress">
