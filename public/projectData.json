@@ -24,15 +24,16 @@
         "technology": "Mongodb, NodeJs (express), ReactJs, Firebase, Jsonwebtoken, React Tab, DashBoard, AOS, Sort-by, sweetalert2,  JavaScript, Bootstrap, CSS3,  HTML5"
       
     },
-
     {
         "_id": 4,
-        "img":"https://i.ibb.co/6ng6QHG/resturent.png",
-        "name": "Restaurant Management",
-        "gitHub": "https://github.com/Sarzil727945/Restaurant-Management",
-        "liveSite": "https://restaurants-management.netlify.app/",
-        "technology": "Mongodb, NodeJs (express), ReactJs, sweetalert2, Firebase, JavaScript, daisyUI, Tailwind, CSS3,  HTML5" 
+        "img":"https://i.ibb.co/3mrb5c7/foot.png",
+        "name": "Food Taste",
+        "gitHub": "https://github.com/Sarzil727945/Food-Taste-client-side",
+        "liveSite": "https://foods-taste.netlify.app/",
+        "technology": "ReactJs, React-to-pdf, React-toastify, Firebase, JavaScript, Bootstrap, CSS3,  HTML5" 
     },
+
+
     {
         "_id": 5,
         "img":"https://i.ibb.co/z2Yr5Mh/cardocter.png",
@@ -43,11 +44,11 @@
     },
     {
         "_id": 6,
-        "img":"https://i.ibb.co/3mrb5c7/foot.png",
-        "name": "Food Taste",
-        "gitHub": "https://github.com/Sarzil727945/Food-Taste-client-side",
-        "liveSite": "https://foods-taste.netlify.app/",
-        "technology": "ReactJs, React-to-pdf, React-toastify, Firebase, JavaScript, Bootstrap, CSS3,  HTML5" 
+        "img":"https://i.ibb.co/6ng6QHG/resturent.png",
+        "name": "Restaurant Management",
+        "gitHub": "https://github.com/Sarzil727945/Restaurant-Management",
+        "liveSite": "https://restaurants-management.netlify.app/",
+        "technology": "Mongodb, NodeJs (express), ReactJs, sweetalert2, Firebase, JavaScript, daisyUI, Tailwind, CSS3,  HTML5" 
     },
     {
         "_id": 7,
