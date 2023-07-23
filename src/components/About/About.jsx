@@ -9,6 +9,7 @@ import Education from './Education/Education';
 
 const About = () => {
      const [servicesList, setServicesList] = useState([])
+     const [selectData, setSelectData] = useState([])
      useEffect(() => {
           fetch('servicesList.json')
                .then(res => res.json())
@@ -16,6 +17,18 @@ const About = () => {
                     setServicesList(data);
                })
      }, [])
+
+
+     const details = (id) => {
+          fetch('servicesList.json')
+               .then(res => res.json())
+               .then(data => {
+                    const mainData = data.filter(item => item._id === id)
+                    setSelectData(mainData);
+               })
+     }
+     const [dataOb] = selectData;
+     console.log(dataOb?.name);
 
      return (
           <div>
@@ -29,16 +42,16 @@ const About = () => {
                          </p>
                     </div>
                     <div>
-                         <Marquee>
+                         <Marquee pauseOnHover direction='right'>
                               <div className=' d-flex mt-5 mb-3'>
                                    {
                                         servicesList.map(data => < div className="shadow p-3 bg-body rounded cardW mx-3" key={data._id}>
                                              <div className="card-body text-center py-3">
                                                   <img className='imgW' src={data.img} alt="" />
                                                   <h3 className="card-title Text-color fw-bold my-3">{data.name}</h3>
-                                                  <p className="card-text px-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                  <Link>
-                                                       <button className='btn btn-outline-secondary border-top-0 border-end-0 border-start-0 buttonB'>
+                                                  <p className="card-text px-5">{data.bio}</p>
+                                                  <Link onClick={() => details(data._id)}>
+                                                       <button type="button" className='btn btn-outline-secondary border-top-0 border-end-0 border-start-0 buttonB' data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                             See More
                                                        </button>
                                                   </Link>
@@ -47,7 +60,32 @@ const About = () => {
                                    }
                               </div>
                          </Marquee >
+                         {/* modal start  */}
+                       
+                         <div>
+                            
+                              <div className="modal fade " id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   <div className="modal-dialog modal-dialog-centered">
+                                        <div className="modal-content">
+                                             <div className="modal-header">
+                                                  <h1 className="modal-title fs-5" id="exampleModalLabel">{dataOb?.name}</h1>
+                                                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                             </div>
+                                             <div className="modal-body">
+                                                  <p>
+                                                       {dataOb?.bio}
+                                                  </p>
+                                             </div>
+                                             <div className="modal-footer">
+                                                  <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         {/* modal end  */}
                     </div >
+
                     <div className='section-1'>
                          <div data-aos="fade-up">
                               <SkillAbout></SkillAbout>

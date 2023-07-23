@@ -6,13 +6,12 @@ import { RiLiveFill } from 'react-icons/ri';
 
 const AllProject = ({ data }) => {
      const { _id, img, name, gitHub, liveSite, technology } = data;
-     console.log(data);
      return (
           <div className='col-lg-4 mb-4'>
                <div className="card">
                     <div className='image-wrap portfolio'>
-                         <div class="portfolio_wrapper">
-                              <div class="portfolio_overlay text-white">
+                         <div className="portfolio_wrapper">
+                              <div className="portfolio_overlay text-white">
                                    <h2 className='card-title'>
                                         <b>{name}</b>
                                    </h2>
