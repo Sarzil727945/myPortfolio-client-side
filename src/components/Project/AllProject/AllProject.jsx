@@ -24,8 +24,8 @@ const AllProject = ({ data }) => {
                     <div className="card-body mx-2 mb-2">
 
                          <div className=' d-flex justify-content-between'>
-                              <Link to={gitHub} className="card-text text-decoration-none" target='_blank'><span className=' fs-4 pIHoverColor me-1'><BsGithub /></span> <b>GitHub</b></Link>
-                              <Link to={liveSite} className="card-text text-decoration-none" target='_blank'><span className=' fs-4 pIHoverColor me-1'><RiLiveFill /></span> <b>LiveSite</b></Link>
+                              <Link to={gitHub} className="card-text text-decoration-none pIHoverColor" target='_blank'><span className=' fs-4  me-1'><BsGithub /></span> <b>GitHub</b></Link>
+                              <Link to={liveSite} className="card-text text-decoration-none pIHoverColor" target='_blank'><span className=' fs-4  me-1'><RiLiveFill /></span> <b>LiveSite</b></Link>
                          </div>
                     </div>
                </div>
