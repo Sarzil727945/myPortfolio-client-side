@@ -5,7 +5,7 @@ import { BsGithub } from 'react-icons/bs';
 import { RiLiveFill } from 'react-icons/ri';
 
 const AllProject = ({ data }) => {
-     const { _id, img, name, gitHub, liveSite, technology } = data;
+     const { _id, img, name, gitHub, liveSite, technology, adminEmail, adminPass } = data;
      return (
           <div className='col-lg-4 mb-4'>
                <div className="card">

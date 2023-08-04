@@ -1,7 +1,7 @@
 [
     {
         "_id": 1,
-        "img":"https://i.ibb.co/7rYhzMK/saP.png",
+        "img": "https://i.ibb.co/Nxhwtgd/front.png",
         "name": "Social Media Platform",
         "gitHub": "https://github.com/Sarzil727945/Social-Media-Platform-MERNPROJECT",
         "liveSite": "https://social-media-platfrom.netlify.app/",
@@ -9,99 +9,92 @@
     },
     {
         "_id": 2,
-        "img":"https://i.ibb.co/kBf26nc/arts-crafts.png",
+        "img": "https://i.ibb.co/kBf26nc/arts-crafts.png",
         "name": "Arts Crafts",
-         "gitHub": "https://github.com/Sarzil727945/Arts-Crafts-client-side",
+        "gitHub": "https://github.com/Sarzil727945/Arts-Crafts-client-side",
         "liveSite": "https://arts-crafts.netlify.app/",
         "technology": "Mongodb, NodeJs (express), ReactJs, Firebase, Jsonwebtoken, React Tab, Category Search, AOS,  sweetalert2,  JavaScript, Bootstrap, CSS3,  HTML5"
     },
     {
         "_id": 3,
-        "img":"https://i.ibb.co/TKDfXMS/S12345.png",
+        "img": "https://i.ibb.co/TKDfXMS/S12345.png",
         "name": "Web Development",
         "gitHub": "https://github.com/Sarzil727945/music-school-client-side",
         "liveSite": "https://musics-school.netlify.app/",
-        "technology": "Mongodb, NodeJs (express), ReactJs, Firebase, Jsonwebtoken, React Tab, DashBoard, AOS, Sort-by, sweetalert2,  JavaScript, Bootstrap, CSS3,  HTML5"
-      
+        "technology": "Mongodb, NodeJs (express), ReactJs, Firebase, Jsonwebtoken, React Tab, DashBoard, AOS, Sort-by, sweetalert2,  JavaScript, Bootstrap, CSS3,  HTML5",
+        "adminEmail": "sarzilmuntaha@gmail.com",
+        "adminPass": "123456"
     },
     {
         "_id": 4,
-        "img":"https://i.ibb.co/3mrb5c7/foot.png",
+        "img": "https://i.ibb.co/3mrb5c7/foot.png",
         "name": "Food Taste",
         "gitHub": "https://github.com/Sarzil727945/Food-Taste-client-side",
         "liveSite": "https://foods-taste.netlify.app/",
-        "technology": "ReactJs, React-to-pdf, React-toastify, Firebase, JavaScript, Bootstrap, CSS3,  HTML5" 
+        "technology": "ReactJs, React-to-pdf, React-toastify, Firebase, JavaScript, Bootstrap, CSS3,  HTML5"
     },
-
-
     {
         "_id": 5,
-        "img":"https://i.ibb.co/z2Yr5Mh/cardocter.png",
+        "img": "https://i.ibb.co/z2Yr5Mh/cardocter.png",
         "name": "Car Doctor",
         "gitHub": "https://github.com/Sarzil727945/Car-Doctor-client-side",
         "liveSite": "https://cars-doctor.netlify.app/",
-        "technology": "Mongodb, NodeJs (express), ReactJs, sweetalert2, Firebase, JavaScript, Bootstrap, CSS3,  HTML5" 
+        "technology": "Mongodb, NodeJs (express), ReactJs, sweetalert2, Firebase, JavaScript, Bootstrap, CSS3,  HTML5"
     },
     {
         "_id": 6,
-        "img":"https://i.ibb.co/6ng6QHG/resturent.png",
+        "img": "https://i.ibb.co/6ng6QHG/resturent.png",
         "name": "Restaurant Management",
         "gitHub": "https://github.com/Sarzil727945/Restaurant-Management",
         "liveSite": "https://restaurants-management.netlify.app/",
-        "technology": "Mongodb, NodeJs (express), ReactJs, sweetalert2, Firebase, JavaScript, daisyUI, Tailwind, CSS3,  HTML5" 
+        "technology": "Mongodb, NodeJs (express), ReactJs, sweetalert2, Firebase, JavaScript, daisyUI, Tailwind, CSS3,  HTML5"
     },
     {
         "_id": 7,
-        "img":"https://i.ibb.co/sKzXhSY/job.png",
+        "img": "https://i.ibb.co/sKzXhSY/job.png",
         "name": "Dream Job",
         "gitHub": "https://github.com/Sarzil727945/Dream-Job",
         "liveSite": "https://dream-all-jobs.netlify.app/",
-        "technology": "ReactJs, React recharts, Firebase, JavaScript, Bootstrap, CSS3,  HTML5" 
+        "technology": "ReactJs, React recharts, Firebase, JavaScript, Bootstrap, CSS3,  HTML5"
     },
     {
         "_id": 8,
-        "img":"https://i.ibb.co/mzznCCn/Ai.png",
+        "img": "https://i.ibb.co/mzznCCn/Ai.png",
         "name": "AI Universe Hub",
         "gitHub": "https://github.com/Sarzil727945/AI-Universe-Hub",
         "liveSite": "https://ai-universes-hub.netlify.app/",
         "technology": "JavaScript, Bootstrap, HTML5"
-        
     },
     {
         "_id": 9,
-        "img":"https://i.ibb.co/ByrMpZz/blogq.png",
+        "img": "https://i.ibb.co/ByrMpZz/blogq.png",
         "name": "Quiz Hero",
         "gitHub": "https://github.com/Sarzil727945/Quiz-Hero",
         "liveSite": "https://quizs-hero.netlify.app/",
         "technology": "JavaScript, Bootstrap, HTML5"
-        
     },
     {
         "_id": 10,
-        "img":"https://i.ibb.co/vVbSYpv/projecthcj.png",
+        "img": "https://i.ibb.co/vVbSYpv/projecthcj.png",
         "name": "Funding Agency",
         "gitHub": "https://github.com/Sarzil727945/Funding-Agency",
         "liveSite": "https://funding-agency.netlify.app/",
         "technology": "JavaScript, Bootstrap, CSS3, HTML5"
-        
     },
     {
         "_id": 11,
-        "img":"https://i.ibb.co/6bLqVWt/Project11.png",
+        "img": "https://i.ibb.co/6bLqVWt/Project11.png",
         "name": "Justice Design",
         "gitHub": "https://github.com/Sarzil727945/Justice",
         "liveSite": "https://justicedesign.netlify.app/",
         "technology": "Bootstrap, CSS3, HTML5"
-        
     },
     {
         "_id": 12,
-        "img":"https://i.ibb.co/vZ3Vqwp/Projects12.png",
+        "img": "https://i.ibb.co/vZ3Vqwp/Projects12.png",
         "name": "G3 Architects",
         "gitHub": "https://github.com/Sarzil727945/G3-Architects",
         "liveSite": "https://g3architects.netlify.app/",
         "technology": "CSS3, HTML5"
-        
     }
-    
 ]

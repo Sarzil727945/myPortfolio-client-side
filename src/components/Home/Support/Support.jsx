@@ -14,7 +14,7 @@ const Support = () => {
                                            <img className='img-sizes' src="https://img.freepik.com/free-vector/business-people-isometric-human-characters-recruitment-consultant-job-candidate-with-editable-text-vector-illustration_1284-30147.jpg?w=740&t=st=1685693825~exp=1685694425~hmac=216443fc100d3111d7bf6e35f2fafa3b0a72f127e6b4adc625d315de902f06bf" alt="" />
                                         </div>
                                         <div className=' ps-2'>
-                                             <h3 className='Text-color fw-bold'>1 Year</h3>
+                                             <h3 className='Text-color fw-bold'>1+ Year</h3>
                                              <p className='org-color fw-semibold fs-5'>Experience</p>
                                         </div>
                                    </div>
