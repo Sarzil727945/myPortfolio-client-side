@@ -18,7 +18,7 @@
     {
         "_id": 3,
         "img": "https://i.ibb.co/TKDfXMS/S12345.png",
-        "name": "Web Development",
+        "name": "Music School",
         "gitHub": "https://github.com/Sarzil727945/music-school-client-side",
         "liveSite": "https://musics-school.netlify.app/",
         "technology": "Mongodb, NodeJs (express), ReactJs, Firebase, Jsonwebtoken, React Tab, DashBoard, AOS, Sort-by, sweetalert2,  JavaScript, Bootstrap, CSS3,  HTML5",

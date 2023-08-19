@@ -19,7 +19,7 @@ const Education = () => {
                                    </div>
                                    <p className=" bRadius bPadding inputBackground pWeight1">GREEN UNIVERSITY OF BANGLADESH - 2020</p>
                                    <h5 className='poppins-font text-uppercase mb-2 mt-3'>BSC in Computer Science and Engineering (CSE) - CSE</h5>
-                                   <b className='place open-sans-font '>CSE (Appeared)</b>
+                                   <b className='place open-sans-font '>CSE (Appeared) (3.55)</b>
                               </div>
                               <div className=' col-lg-6 mt-lg-0 mt-5 border-start border-secondary paddingStart position-relative'>
                                    <div className=' position-absolute weightHeight'>

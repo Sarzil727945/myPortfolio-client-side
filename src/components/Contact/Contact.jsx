@@ -17,13 +17,13 @@ const Contact = () => {
      const [input2Value, setInput2Value] = useState('');
      const [input3Value, setInput3Value] = useState('');
      const [isFormFilled, setIsFormFilled] = useState(false);
+     const [sendMessage, setSendMessage] = useState("Send Message")
      const [email, setEmail] = useState("")
      const [emailError, setEmailError] = useState('')
      const emailRef = useRef();
 
 
      const notify = () => toast("Please fill up the form !!");
-
 
      const handleInput1Change = (event) => {
           setInput1Value(event.target.value);
@@ -59,12 +59,12 @@ const Contact = () => {
 
      const handleSubmit = (event) => {
           event.preventDefault();
+          setSendMessage('Sending Message...')
           const formOf = event.target;
           const name = formOf.name.value;
           const email = formOf.email.value;
           const subject = formOf.subject.value;
           const message = formOf.message.value;
-
           emailjs.sendForm('service_ynwypci', 'template_92ge94i', form.current, '4pgoNqPSJizpL-x1l')
                .then((result) => {
                     console.log(result.text);
@@ -97,6 +97,7 @@ const Contact = () => {
                          setInput1Value('');
                          setInput2Value('');
                          setInput3Value('');
+                         setSendMessage('Send Message')
                     }
                })
           // user information post data page end
@@ -203,7 +204,7 @@ const Contact = () => {
                                         <div>
                                              <button type="submit" className="sendButton" onClick={() => notify()}>
 
-                                                  Send Message  <FaPaperPlane />
+                                                  {sendMessage}  <FaPaperPlane />
                                              </button>
                                              {!isFormFilled && <ToastContainer />}
                                         </div>
