@@ -59,49 +59,50 @@ const Contact = () => {
 
      const handleSubmit = (event) => {
           event.preventDefault();
-          setSendMessage('Sending Message...')
           const formOf = event.target;
           const name = formOf.name.value;
           const email = formOf.email.value;
           const subject = formOf.subject.value;
           const message = formOf.message.value;
-          emailjs.sendForm('service_ynwypci', 'template_92ge94i', form.current, '4pgoNqPSJizpL-x1l')
-               .then((result) => {
-                    console.log(result.text);
-               }, (error) => {
-                    console.log(error.text);
-               });
-
-
-          // user information post data page start 
-          const saveUser = { name, email, subject, message }
-          fetch('https://portfolio-server-side-rho.vercel.app/user', {
-               method: 'POST',
-               headers: {
-                    'content-type': 'application/json'
-               },
-               body: JSON.stringify(saveUser)
-          })
-               .then(res => res.json())
-               .then(data => {
-                    if (data.insertedId) {
-                         Swal.fire({
-                              title: 'Success!',
-                              text: 'Send your message Success !!',
-                              icon: 'success',
-                              confirmButtonText: 'Ok'
-                         })
-
-                         formOf.reset();
-                         setEmail('')
-                         setInput1Value('');
-                         setInput2Value('');
-                         setInput3Value('');
-                         setSendMessage('Send Message')
-                    }
+          
+          if (input1Value && input2Value && input3Value) {
+               setSendMessage('Sending Message...')
+               emailjs.sendForm('service_ynwypci', 'template_92ge94i', form.current, '4pgoNqPSJizpL-x1l')
+                    .then((result) => {
+                         console.log(result.text);
+                    }, (error) => {
+                         console.log(error.text);
+                    });
+               // user information post data page start 
+               const saveUser = { name, email, subject, message }
+               fetch('https://portfolio-server-side-rho.vercel.app/user', {
+                    method: 'POST',
+                    headers: {
+                         'content-type': 'application/json'
+                    },
+                    body: JSON.stringify(saveUser)
                })
-          // user information post data page end
-     };
+                    .then(res => res.json())
+                    .then(data => {
+                         if (data.insertedId) {
+                              Swal.fire({
+                                   title: 'Success!',
+                                   text: 'Send your message Success !!',
+                                   icon: 'success',
+                                   confirmButtonText: 'Ok'
+                              })
+
+                              formOf.reset();
+                              setEmail('')
+                              setInput1Value('');
+                              setInput2Value('');
+                              setInput3Value('');
+                              setSendMessage('Send Message')
+                         }
+                    })
+               // user information post data page end
+          };
+     }
 
      return (
           <div>
@@ -121,12 +122,12 @@ const Contact = () => {
                                              <FaEnvelopeOpen />
                                         </div>
                                         <div className=' ms-2'>
-                                                  <div>
-                                                       <i className=' d-block text-muted fw-semibold'>MAIL ME</i>
-                                                  </div>
-                                                  <div>
-                                                       <a href="mailto:sarzilmuntaha@gmail.com" className=' text-decoration-none text-dark  fontSize' target='_blank'>sarzilmuntaha@gmail.com</a>
-                                                  </div>
+                                             <div>
+                                                  <i className=' d-block text-muted fw-semibold'>MAIL ME</i>
+                                             </div>
+                                             <div>
+                                                  <a href="mailto:sarzilmuntaha@gmail.com" className=' text-decoration-none text-dark  fontSize' target='_blank'>sarzilmuntaha@gmail.com</a>
+                                             </div>
                                         </div>
                                    </div>
                                    <div className=' d-flex mt-3'>
