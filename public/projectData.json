@@ -1,7 +1,7 @@
 [
     {
         "_id": 1,
-        "img": "../public/images/1AirCNC.png",
+        "img": "https://i.ibb.co/5FX388L/1AirCNC.png",
         "name": "AirCNC Home",
         "gitHub": "https://github.com/Sarzil727945/AirCNC-Home-Private",
         "liveSite": "https://aircnc-home.netlify.app/",
@@ -9,7 +9,7 @@
     },
     {
         "_id": 2,
-        "img": "../public/images/2Social.png",
+        "img": "https://i.ibb.co/YfYcDXz/2Social.png",
         "name": "Social Media Platform",
         "gitHub": "https://github.com/Sarzil727945/Social-Media-Platform-MERNPROJECT",
         "liveSite": "https://social-media-platfrom.netlify.app/",
@@ -17,7 +17,7 @@
     },
     {
         "_id": 3,
-        "img": "../public/images/3Arts.png",
+        "img": "https://i.ibb.co/DG7gbW2/3Arts.png",
         "name": "Arts Crafts",
         "gitHub": "https://github.com/Sarzil727945/Arts-Crafts-client-side",
         "liveSite": "https://arts-crafts.netlify.app/",
@@ -25,7 +25,7 @@
     },
     {
         "_id": 4,
-        "img": "../public/images/4Music.png",
+        "img": "https://i.ibb.co/6J5kHS3/4Music.png",
         "name": "Music School",
         "gitHub": "https://github.com/Sarzil727945/music-school-client-side",
         "liveSite": "https://musics-school.netlify.app/",
@@ -35,7 +35,7 @@
     },
     {
         "_id": 5,
-        "img": "../public/images/5FoodTaste.png",
+        "img": "https://i.ibb.co/LPKwkKT/5-Food-Taste.png",
         "name": "Food Taste",
         "gitHub": "https://github.com/Sarzil727945/Food-Taste-client-side",
         "liveSite": "https://foods-taste.netlify.app/",
@@ -43,7 +43,7 @@
     },
     {
         "_id": 6,
-        "img": "../public/images/6CarDoctor.png",
+        "img": "https://i.ibb.co/SwpyqGh/6-Car-Doctor.png",
         "name": "Car Doctor",
         "gitHub": "https://github.com/Sarzil727945/Car-Doctor-client-side",
         "liveSite": "https://cars-doctor.netlify.app/",
@@ -51,7 +51,7 @@
     },
     {
         "_id": 7,
-        "img": "../public/images/7Restaurant.png",
+        "img": "https://i.ibb.co/D44xms9/7-Restaurant.png",
         "name": "Restaurant Management",
         "gitHub": "https://github.com/Sarzil727945/Restaurant-Management",
         "liveSite": "https://restaurants-management.netlify.app/",
@@ -59,7 +59,7 @@
     },
     {
         "_id": 8,
-        "img": "../public/images/8DreamJob.png",
+        "img": "https://i.ibb.co/7CGCQHc/8-Dream-Job.png",
         "name": "Dream Job",
         "gitHub": "https://github.com/Sarzil727945/Dream-Job",
         "liveSite": "https://dream-all-jobs.netlify.app/",
@@ -67,7 +67,7 @@
     },
     {
         "_id": 9,
-        "img": "../public/images/9AIUniverse.png",
+        "img": "https://i.ibb.co/rHpq9bz/9-AIUniverse.png",
         "name": "AI Universe Hub",
         "gitHub": "https://github.com/Sarzil727945/AI-Universe-Hub",
         "liveSite": "https://ai-universes-hub.netlify.app/",
@@ -75,7 +75,7 @@
     },
     {
         "_id": 10,
-        "img": "../public/images/10Quiz.png",
+        "img": "https://i.ibb.co/tsZkCCq/10Quiz.png",
         "name": "Quiz Hero",
         "gitHub": "https://github.com/Sarzil727945/Quiz-Hero",
         "liveSite": "https://quizs-hero.netlify.app/",
@@ -83,7 +83,7 @@
     },
     {
         "_id": 11,
-        "img": "../public/images/11Funding.png",
+        "img": "https://i.ibb.co/L0LqY5v/11-Funding.png",
         "name": "Funding Agency",
         "gitHub": "https://github.com/Sarzil727945/Funding-Agency",
         "liveSite": "https://funding-agency.netlify.app/",
@@ -91,7 +91,7 @@
     },
     {
         "_id": 12,
-        "img": "../public/images/12Justice.png",
+        "img": "https://i.ibb.co/xf8wGPh/12-Justice.png",
         "name": "Justice Design",
         "gitHub": "https://github.com/Sarzil727945/Justice",
         "liveSite": "https://justicedesign.netlify.app/",
