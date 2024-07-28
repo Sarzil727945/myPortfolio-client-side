@@ -42,11 +42,11 @@ const Home = () => {
                                              self-motivated and committed to the successful outcome of the project.
                                              I am willing to work hard and have a great desire to learn. <br /> I want to
                                              create software that improves the lives of those around me. Currently
-                                             working as a Software Engineer at "Urban IT Solution".
+                                             working as a Software Engineer at "Urban IT Solutions".
                                         </p>
                                         <div className='mt-5'>
                                              <button className='borderNone'>
-                                                  <a className='aBtn button2' href="https://drive.google.com/file/d/1M1IjSZzij80Cpiyw7-mRwyeH5nzlYGj-/view?usp=drive_link" target='_blank'>
+                                                  <a className='aBtn button2' href="https://drive.google.com/file" target='_blank'>
                                                        <span><span className='iconSize'><BiCloudDownload /></span> Resume</span>
                                                   </a>
                                              </button>

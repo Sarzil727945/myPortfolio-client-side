@@ -17,9 +17,9 @@ const Education = () => {
                                    <div className=' position-absolute weightHeight'>
                                         <FaGraduationCap />
                                    </div>
-                                   <p className=" bRadius bPadding inputBackground pWeight1">GREEN UNIVERSITY OF BANGLADESH - 2020</p>
-                                   <h5 className='poppins-font text-uppercase mb-2 mt-3'>BSC in Computer Science and Engineering (CSE) - CSE</h5>
-                                   <b className='place open-sans-font '>CSE (Appeared) (3.55)</b>
+                                   <p className=" bRadius bPadding inputBackground pWeight1">Bangladesh University of Engineering and Technology - 2020</p>
+                                   <h5 className='poppins-font text-uppercase mb-2 mt-3'>Department of Computer Science and Engineering- CSE</h5>
+                                   <b className='place open-sans-font '>CSE (Running) (3.88)</b>
                               </div>
                               <div className=' col-lg-6 mt-lg-0 mt-5 border-start border-secondary paddingStart position-relative'>
                                    <div className=' position-absolute weightHeight'>
@@ -35,9 +35,9 @@ const Education = () => {
                                    <div className=' position-absolute weightHeight'>
                                         <FaGraduationCap />
                                    </div>
-                                   <p className=" bRadius bPadding inputBackground pWeight">PARANPUR KAMIL MADRASAH - 2020</p>
+                                   <p className=" bRadius bPadding inputBackground pWeight">Rajshahi Govt. City College - 2020</p>
                                    <h5 className='poppins-font text-uppercase mb-2 mt-3'>HIGHER SECONDARY SCHOOL CERTIFICATE (HSC) - SCIENCE</h5>
-                                   <b className='place open-sans-font '>Science (4.44)</b>
+                                   <b className='place open-sans-font '>Science (5)</b>
                               </div>
                               <div className=' col-lg-6 mt-lg-0 mt-5 border-start border-secondary paddingStart position-relative'>
                                    <div className=' position-absolute weightHeight'>

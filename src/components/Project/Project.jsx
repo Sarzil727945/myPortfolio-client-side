@@ -28,7 +28,7 @@ const Project = () => {
                                         </div>
                                         <p className=" bRadius bPadding inputBackground pWeight">PARANPUR KAMIL MADRASAH - 2018</p>
                                         <h5 className='poppins-font text-uppercase mb-2 mt-3'>SECONDARY SCHOOL CERTIFICATE (SSC) - SCIENCE</h5>
-                                        <b className='place open-sans-font '>Science (4.55)</b>
+                                        <b className='place open-sans-font '>Science (5)</b>
                                    </div>
                                    <div className=' col-lg-6 mt-lg-0 mt-5 border-start border-secondary paddingStart position-relative'>
                                         <div className=' position-absolute weightHeight'>
